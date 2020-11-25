@@ -40,7 +40,7 @@ Lors de la résolution du problème, ici avec le langage Swift, les données son
 
  - Donnée simple: Pouvant être un entier `Int`, un nombre décimal `Float` ou `Double`, une chaîne de caractères `String` ou d'autre type.
 ```swift
-// readline() étant optionnel, il est donc "unwrappé" pour accéder au conteni
+// readline() étant optionnel, il est donc "unwrappé" pour accéder au contenu
 let n = readline()! // Par défaut, de type String
 let entier = Int(readline()!)! // Type Int.
 ```
