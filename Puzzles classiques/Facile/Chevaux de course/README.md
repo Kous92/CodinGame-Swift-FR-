@@ -34,4 +34,4 @@ Entrée | Sortie
  4. Boucle for de 0 à n - 2
  5. Dans la boucle: Plus petite différence = minimum entre la plus petite différence et la différence entre le cheval suivant et le cheval actuel
 
-[Code source de la solution](:doc:/chevauxDeCourse.swift)
+[Code source de la solution](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Facile/Chevaux%20de%20course/chevauxDeCourse.swift)

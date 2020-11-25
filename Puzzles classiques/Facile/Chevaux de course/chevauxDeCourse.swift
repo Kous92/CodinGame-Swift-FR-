@@ -37,4 +37,4 @@ for i in 0 ..< listeChevaux.count - 1 {
     diff = min(diff, listeChevaux[i + 1] - listeChevaux[i])
 }
 
-print(diff);
+print(diff)
