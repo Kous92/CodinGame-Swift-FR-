@@ -24,3 +24,5 @@ Avant la fin du tour (fin de la boucle), vous devez indiquer en sortie le nom de
 
 ## Solution
 Le bloc de code ci-dessus ajouté dit que si la distance de l'ennemi 1 est plus proche que celle de l'ennemi 2, alors on affiche le contenu de la variable `enemy1`, `enemy1` dans le cas contraire. 
+
+[Code source de la solution](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Facile/Onboarding/onboarding.swift)
