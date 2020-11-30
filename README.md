@@ -6,7 +6,7 @@ Ici, je vais parler du **CodinGame**, et je mettrai en avant le langage Swift et
    Aujourd'hui, le **CodinGame** est utilisé par de plus en plus d'entreprises et de recruteurs (notamment dans les ESN/SSII) pour tester techniquement leurs candidats. De quoi s'agit-il au juste ?
 
 **CodinGame**, est une plateforme en ligne de "gamification" de programmation informatique, créée en 2014 par cette start-up française de Montpellier du même nom, proposant les choses suivantes:
- - Puzzles de difficulté croissante mettant en application des notions d'algorithmique, de maths, de logique, ... (dans le jargon des gamers, c
+ - Puzzles de difficulté croissante mettant en application des notions d'algorithmique, de maths, de logique, ... Dans le jargon des gamers, c'est du PvE (Player VS Environnement).
  - Clash of Code: 8 joueurs s'affrontent en ligne sur un problème à résoudre dans 3 modes de jeu: Le plus rapide, code le plus court et mode reverse (où il faut résoudre le problème en devinant quoi faire avec les entrées et sorties données). Dans le jargon des gamers, il s'agit donc du PvP (Player VS Player) de CodinGame.
  - Combats de bots: programmation d'IA par le code dans différentes thématiques en PvE (Player VS Environnement) ou en PvP (Player VS Player).
  - Des grands challenges sous formes d'événements majeurs de la communauté.
@@ -91,7 +91,7 @@ print(n * 2)
 
 Souvent, on utilise des `print()` pour vérifier le contenu des données afin de s'assurer que l'algorithme puisse être conforme aux jeux de tests attendus.
 
-Pour cela, **CodinGame** exige l'utilisation du flux d'erreur dans les affichages avec ceci:
+Pour cela, **CodinGame** exige l'utilisation du flux d'erreur (ici **errStream**) dans les affichages avec ceci:
 ```swift
 // Débug
 print("Debug messages...", to: &errStream)
