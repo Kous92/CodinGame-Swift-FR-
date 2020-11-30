@@ -95,4 +95,4 @@ if distance < closestDistance {
 }
 ```
 
-[Code source de la solution](:doc:/horseRacingHyperduals.swift)
+[Code source de la solution](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Facile/Horse-racing%20Hyperduals/horseRacingHyperduals.swift)
