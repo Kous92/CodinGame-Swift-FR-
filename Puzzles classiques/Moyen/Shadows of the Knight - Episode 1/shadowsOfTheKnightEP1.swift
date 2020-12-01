@@ -14,6 +14,8 @@ let inputs2 = (readLine()!).split(separator: " ").map(String.init)
 var x = Int(inputs2[0])! // Replaces X0
 var y = Int(inputs2[1])! // Replaces Y0
 
+// If test failed with -1, change xMin and yMin to 0.
+// If test failed with 0, change xMin and yMin to -1.
 var xMin = -1 // Minimum width
 var xMax = W // Maximum width
 var yMin = -1 // Minimum height
