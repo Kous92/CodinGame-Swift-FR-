@@ -8,7 +8,7 @@ L’Hippodrome de Casablanca organise un nouveau type de course de chevaux : les
   
 Écrivez un programme qui, à partir d’un ensemble donné de puissances, identifie les deux puissances les plus proches et affiche leur écart avec un nombre entier positif.
 
-##   Données du jeu
+## Données du jeu
 
 ### Entrée
  - Ligne 1 : Le nombre  `N` de chevaux Les  `N`  lignes suivantes : la
