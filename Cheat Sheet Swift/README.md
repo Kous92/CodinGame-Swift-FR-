@@ -8,7 +8,7 @@ Voici un cheat sheet sur le langage Swift (pour Swift 5) avec des notions à ré
 - [Variables](#variables)
     + [Types de base](#basetypes)
     + [Expression](#varexp)
-    + [Types de base](#basetypes)
+    + [Inférence de type](#vartypeinf)
     + [Bonus](#varbonus)
 
 ## <a name="basesyntax"></a>Syntaxe de base
@@ -78,7 +78,14 @@ let b: Int = 3
 let c: Int = a + b // 5
 ```
 
-### <a name="baseTypes"></a>Types de base
+### <a name="vartypeinf"></a>Inférence de type
+
+Comme les langages JavaScript et PHP, Swift peut inférer le type de variable, c'est-à-dire qu'il n'est pas nécessaire de préciser le type de variable lors de sa création. Dans des cas spécifiques, préciser son type avant l'affectation d'une valeur devient nécessaire.
+```swift
+let n: 2 // Int
+let message = "Salut" // String
+let prix = 9.99 // Double
+```
 
 ### <a name="varBonus"></a>Bonus
 Grâce à Apple, et pour plus de fun, il est possible dans les noms de variables en Swift d'utiliser des caractères spéciaux qu'ils soient:
