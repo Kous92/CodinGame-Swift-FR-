@@ -10,6 +10,8 @@ Voici un cheat sheet sur le langage Swift (pour Swift 5) avec des notions à ré
     + [Expression](#varexp)
     + [Inférence de type](#vartypeinf)
     + [Bonus](#varbonus)
+- [Opérateurs](#operators)    
+- [Chaînes de caractères](#strings)
 
 ## <a name="basesyntax"></a>Syntaxe de base
 
@@ -110,3 +112,40 @@ var `import` = "OK"
 ```swift
 var camelCase = 0
 ```
+
+## <a name="operators"></a>Opérateurs
+
+Incontournables, les opérateurs permettent d'effectuer diverses opérations selon les cas d'utilisation
+
+### Affectation
+L'opérateur d'affectation `=`va affecter le contenu à droite de l'opérande à la variable à gauche de l'opérande. **ATTENTION À NE PAS CONFONDRE AVEC L'OPÉRATEUR CONDITIONNEL D'ÉGALITÉ `==`!**
+```swift
+var x = 2
+```
+### Opérateurs mathématiques basiques (type binaire)
+- `+` pour l'addition (ou la concaténation avec les chaînes de caractères) -> `a + b` (en String: `"a" + "b" -> "ab"`)
+- `-` pour la soustraction -> `a - b`. Utilisé aussi pour inverser le signe d'un nombre: `-a`
+- `*` pour la multiplication -> `a * b`
+- `/` pour la division -> `a / b`
+- `%` pour le modulo (reste de la division euclidienne) -> `a % b`
+
+**ATTENTION: le compilateur Swift râle si vous effectuez des opérations mathématiques avec des types différents l'un de l'autre !!! Il est donc interdit de faire par exemple une multiplication entre un `Int` et un `Double` !** Vous devrez donc être explicite avec des conversions de type (transtypage) pour effectuer des opérations comme ça:
+```swift
+let a: Int = 4
+let b: Double = 5.0
+
+let c: Int = a * b // INTERDIT !
+let c: Int = 4 * Int(b) // AUTORISÉ, Swift reconnaît 2 Int pour la multiplication
+```
+
+## <a name="strings"></a>Chaînes de caractères (String)
+
+Les chaînes de caractères (`String`) sont des incontournables dans la programmation. On les utilise en permanence, mais il faut aussi leur appliquer des traitements spécifiques comme par exemple pour le filtrage, la mise en forme,...
+
+- Rappel de la déclaration de variable:
+```swift
+var message: String = "Hello World !"
+var message2 = "Bonjour"
+```
+
+### Interpolation de chaîne (String interpolation)
