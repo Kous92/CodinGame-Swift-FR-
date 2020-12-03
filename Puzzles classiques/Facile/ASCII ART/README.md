@@ -48,8 +48,25 @@ L'art ASCII permet de représenter des formes en utilisant des caractères. Dans
 Un exercice qui peut s'avérer difficile étant donné qu'en plus de récupérer les codes ASCII de chaque caractère du texte, la principale difficulté de ce problème est de positionner le curseur dans chaque ligne du texte en ASCII ART et de faire des sous-chaînes (Substring) de chaque caractère ASCII ART pour ensuite les concaténer et afficher la solution. En Swift, les sous-chaines ne sont pas aussi simples à faire qu'en Java ou autres langages.
 
 1. Initialiser une chaîne de caractères (String) vide qui va être concaténée de toutes les lignes de l'entrée.
-2. Il faut s'assurer que le texte à convertir en ASCII ART soit en majuscules.
+```swift
+var ROWS = ""
+
+if H > 0 {
+    for i in 0...(H-1) {
+        let ROW = readLine()!
+        ROWS += ROW
+    }
+}
+```
+2. Il faut s'assurer que le texte à convertir en ASCII ART soit en majuscules. Initialiser par la suite une chaîne pour la solution.
+```swift
+T = T.uppercased()
+var solution = ""
+```
 3. Transformer la chaîne en tableau de caractères `String -> [Character]`
+```swift
+var array = Array(T)
+```
 4. Itérer par rapport à la hauteur de la lettre ASCII ART
 ```swift
 for row in 0 ..< H {
