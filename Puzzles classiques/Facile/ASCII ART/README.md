@@ -39,9 +39,9 @@ L'art ASCII permet de représenter des formes en utilisant des caractères. Dans
 - Les caractères qui ne sont pas dans les intervales [a-z] ou [A-Z], seront affichés par le point d'interrogation en art ASCII.
 
 ### Contraintes
-0 < `L` < 30
-0 < `H` < 30
-0 < `N` < 200
+- 0 < `L` < 30
+- 0 < `H` < 30
+- 0 < `N` < 200
 
 # Solution
 
