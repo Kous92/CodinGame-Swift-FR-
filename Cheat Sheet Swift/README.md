@@ -82,7 +82,7 @@ let c: Int = a + b // 5
 
 ### <a name="vartypeinf"></a>Inférence de type
 
-Comme les langages JavaScript et PHP, Swift peut inférer le type de variable, c'est-à-dire qu'il n'est pas nécessaire de préciser le type de variable lors de sa création. Dans des cas spécifiques, préciser son type avant l'affectation d'une valeur devient nécessaire.
+Comme les langages JavaScript et PHP, Swift peut inférer le type de variable, c'est-à-dire qu'il n'est pas nécessaire de préciser le type de variable lors de sa création, Swift peut donc ainsi reconnaître automatiquement le type de valeur affecté à la variable. Dans des cas spécifiques, préciser son type avant l'affectation d'une valeur devient nécessaire.
 ```swift
 let n: 2 // Int
 let message = "Salut" // String
@@ -149,3 +149,39 @@ var message2 = "Bonjour"
 ```
 
 ### Interpolation de chaîne (String interpolation)
+
+Dans une chaîne de caractères en Swift, l'interpolation va permettre de mettre en place des contenus de variables affichables, sous format de chaîne de caractère. En gros, avec la syntaxe d'interpolation, on peut y mettre plusieurs chaînes dans une seule. C'est aussi de cette façon qu'on peut afficher le contenu d'une variable de type `Int`, `Float`, `Double`, `Bool`,... dans une chaîne (entre "").
+
+```swift
+\() // Syntaxe d'interpolation de chaîne, à mettre entre les ""
+
+var message: String = "Hello World !"
+var message2 = "Le message de base: \(message)"
+// Sortie: Le message de base: Hello World
+
+var prix: Int = 1159 // Avec un Int
+var sortie = "Le prix de l'iPhone 12 Pro est de \(prix)€" // Interpolation d'un Int
+```
+
+### Concaténation de chaînes
+
+En Swift, les opérateurs d'addition `+`et `+=`sont utilisés pour la concaténation de chaînes, c'est à dire que les chaînes seront combinées en une seule.
+
+```swift
+// Concaténation avec +
+var texte = "Hello " + "World !"
+
+// Concaténation avec += (équivaut à texte = texte + " How are you ?")
+texte += " How are you ?"
+```
+
+### Multi-lignes dans une chaîne
+
+Pour une chaîne à plusieurs lignes, il suffit de l'entourer avec des triples guillemets `"""`.
+```swift
+let messageMultiligne = """ 
+Ligne 1
+Ligne 2
+Ligne 3
+"""
+```
