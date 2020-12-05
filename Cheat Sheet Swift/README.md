@@ -179,9 +179,26 @@ texte += " How are you ?"
 
 Pour une chaîne à plusieurs lignes, il suffit de l'entourer avec des triples guillemets `"""`.
 ```swift
-let messageMultiligne = """ 
+let messageMultiligne = """
 Ligne 1
 Ligne 2
 Ligne 3
+"""
+```
+
+### Conversion de types différents en String
+
+Swift permet avec une version dédiée de constructeurs (`init`) de convertir des valeurs en chaînes de caractères, comme par exemple avec le type `Int`:
+```swift
+let n = 123456789
+let str = String(number) // Méthode 1
+let str2 = "\(number)" // Méthode 2 avec l'interpolation
+"""
+```
+
+Et il est possible de faire l'opération inverse. ATTENTION, le contenu retourne un optionnel ! Si c'est `nil` et que c'est pas vérifié, ça crashe ! Si vous êtes certain que le contenu est correct et existant, alors il suffira de déballer avec `!`. 
+```swift
+let str = "123456789"
+let n = Int(number)! // ATTENTION, Int(string) retourne Int?
 """
 ```
