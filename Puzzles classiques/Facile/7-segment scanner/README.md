@@ -43,6 +43,6 @@ La longueur de chaque ligne est divisible par 3 (les espaces de fin sont donc pr
                 "       |_|  ||_  _|  | _||_|  ||_| _|      "
 
 #### Sortie
-0123456789
+`0123456789`
 
-[Code source de la solution]()
+[Code source de la solution](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Facile/7-segment%20scanner/7segmentscanner.swift)
