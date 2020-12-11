@@ -10,12 +10,21 @@ Voici un cheat sheet sur le langage Swift (pour Swift 5) avec des notions à ré
     + [Expression](#varexp)
     + [Inférence de type](#vartypeinf)
     + [Bonus](#varbonus)
-- [Opérateurs](#operators)    
+- [Opérateurs](#operators)   
+- [Contrôle de flux](#flowcontrol)
+    + [Condition (if)](#if)
+    + [Boucle pour (for)](#for)
+    + [Boucle tant que (while/repeat-while)](#while)
 - [Chaînes de caractères](#strings)
 
 ## <a name="basesyntax"></a>Syntaxe de base
 
 Dans toute expression en Swift, **il n'y a pas besoin de mettre le point-virgule à la fin d'une expression**. Le point-virgule est utile pour plusieurs déclarations de variables en une seule ligne.
+
+Pour un affichage de base dans la console, on utilise la fonction print()
+```swift
+print("Hello world !")
+```
 
 ## <a name="variables"></a>Variables
 
@@ -122,6 +131,7 @@ L'opérateur d'affectation `=`va affecter le contenu à droite de l'opérande à
 ```swift
 var x = 2
 ```
+
 ### Opérateurs mathématiques basiques (type binaire)
 - `+` pour l'addition (ou la concaténation avec les chaînes de caractères) -> `a + b` (en String: `"a" + "b" -> "ab"`)
 - `-` pour la soustraction -> `a - b`. Utilisé aussi pour inverser le signe d'un nombre: `-a`
@@ -137,6 +147,78 @@ let b: Double = 5.0
 let c: Int = a * b // INTERDIT !
 let c: Int = 4 * Int(b) // AUTORISÉ, Swift reconnaît 2 Int pour la multiplication
 ```
+
+### Opérateurs logiques (conditionnels)
+- `==` pour vérifier l'égalité entre 2 valeurs
+- `>` pour vérifier si la valeur est supérieure à l'autre valeur
+- `>=` pour vérifier si la valeur est supérieure ou égale à l'autre valeur
+- `<` pour vérifier si la valeur est inférieure à l'autre valeur
+- `<=` pour vérifier si la valeur est inférieure ou égale à l'autre valeur
+- `&&`
+- `||`
+
+## <a name="controlflow"></a>Flux de contrôle
+
+### <a name="if"></a>Conditions (if)
+
+Les blocs conditionnels "si" (`if`) sont incontournables et s'utilisent pour exécuter des blocs spécifiques par rapport aux instructions conditionnelles (booléennes) vérifiées par le biais d'opérateurs de comparaision et d'égalité. De base, il y a 2 blocs, le bloc "si" (`if`) si la condition est vérifiée, et le bloc sinon (`else`) dans le cas contraire.
+```swift
+let âge = 18
+
+if âge >= 18 {
+    print("Tu es majeur")
+} else {
+    print("Tu es mineur")
+}
+```
+
+Par rapport aux autres langages, il n'y a pas besoin de mettre les conditions entre parenthèses, c'est facultatif. Utile néanmoins pour des conditions multiples afin d'assurer une meilleure lisibilité du code.
+
+
+Si on a plusieurs conditions à vérifier, alors on utilise la structure "si-sinon si-sinon" (`if`, `else if`, `else`):
+```swift
+let note = 15
+
+if note > 16 {
+    print("Grade A")
+} else if note > 12 {
+    print("Grade B")
+} else if note > 9 {
+    print("Grade C")
+} else if note > 6 {
+    print("Grade D")
+} else if note > 3 {
+    print("Grade E")
+} else {
+    print("Grade F")
+}
+```
+On peut faire plus simple avec la structure "selon" (`switch`) avec différentes valeurs pour une variable afin d'éviter la répétition de `if`,`else if`, `else`:
+```swift
+let codeHttp = 200
+
+switch codeHttp {
+    case 200:
+        print("Succès")
+    break
+    case 403:
+        print("Erreur 403: Accès refusé")
+    break
+    case 404:
+        print("Erreur 404: la page n'existe pas")
+    break
+    case 500:
+        print("Erreur 500: Erreur serveur")
+    break
+    default:
+        print("Erreur inconnue")
+    break
+}
+```
+
+### <a name="if"></a>Boucle for (for)
+
+### <a name="if"></a>Boucle tant que (while / repeat-while)
 
 ## <a name="strings"></a>Chaînes de caractères (String)
 
@@ -161,6 +243,14 @@ var message2 = "Le message de base: \(message)"
 
 var prix: Int = 1159 // Avec un Int
 var sortie = "Le prix de l'iPhone 12 Pro est de \(prix)€" // Interpolation d'un Int
+```
+
+Note: C'est de cette façon qu'on affiche le contenu d'une variable dans un `print()`:
+```swift
+\() // Syntaxe d'interpolation de chaîne, à mettre entre les ""
+var prix: Int = 1159 // Avec un Int
+print("Le prix de l'iPhone 12 Pro est de \(prix)€") // Interpolation d'un Int
+// -> Affiche: Le prix de l'iPhone 12 Pro est de 1 159€
 ```
 
 ### Concaténation de chaînes
@@ -196,9 +286,13 @@ let str2 = "\(number)" // Méthode 2 avec l'interpolation
 """
 ```
 
-Et il est possible de faire l'opération inverse. ATTENTION, le contenu retourne un optionnel ! Si c'est `nil` et que c'est pas vérifié, ça crashe ! Si vous êtes certain que le contenu est correct et existant, alors il suffira de déballer avec `!`. 
+Et il est possible de faire l'opération inverse. ATTENTION, le contenu retourne un optionnel ! Si c'est `nil` et que ce n'est pas vérifié, ça crashe ! Si vous êtes certain que le contenu est correct et existant, alors il suffira de déballer avec `!`. 
 ```swift
 let str = "123456789"
 let n = Int(number)! // ATTENTION, Int(string) retourne Int?
-"""
 ```
+
+### Sous-chaînes (Substring)
+
+### Caractères
+
