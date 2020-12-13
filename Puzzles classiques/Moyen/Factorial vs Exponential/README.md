@@ -42,14 +42,6 @@ Les nombres donnés peuvent avoir jusqu'à 2 chiffres après la virgule.
 1 ≤ `K` ≤ 100
 1 < `A_i` < 10000
 
-### Exemple
-
-Entrée | Sortie
------------- | -------------
-2<br>2 3 | 4 7
-
-**CETTE SOLUTION EN SWIFT EST LA TOUTE PREMIÈRE AU MONDE :)**
-
 ### Solution
 
 En Swift, gérer les opérations avec les logarithmes, exponentielles et factorielles s'avère délicat, avec les contraintes de type.
