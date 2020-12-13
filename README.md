@@ -13,6 +13,12 @@ Aujourd'hui, le **CodinGame** est utilisé par de plus en plus d'entreprises et 
 
 Dans le cadre des puzzles ou du Clash of Code, le but étant de valider des jeux de tests sous forme de tests unitaires où avec des données en entrée il faut fournir le résultat attendu en sortie. Bien évidemment, l'IDE de CodinGame a été conçu pour éviter les réponses codées en dur afin que les algorithmes adéquats soient implémentés. Dans le Clash of Code, la durée est limitée à 15 minutes.
 
+## Puzzles
+
+Ici, je vous propose des solutions sur des puzzles que j'ai résolu (avec un score de 100%) en Swift:
+- [Puzzles faciles](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile): **6 puzzles résolus**
+- [Puzzles moyens](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen): **3 puzzles résolus**
+
 ## Tests techniques
 
 Pour ce qui est des tests techniques des recruteurs, **CodinGame** est une solution mise en place afin de réduire les coûts pour le recrutement des développeurs par le biais de systèmes de tests techniques sous forme de QCM, de résolution de problèmes par le code et de correction de code (dans le même type que la résolution de problèmes). Ces tests utilisés peuvent être prédéfinis par CodinGame ou fait sur-mesure. Les recruteurs évalueront par le biais de ce test technique:
@@ -51,14 +57,16 @@ let entier = Int(readline()!)! // Type Int.
 // En boucle for
 let N = Int(readLine()!)! // N pour le nombre de données
 
-if N > 0 {
-	for i in 0...(N-1) {
-		// En Int
-		let x = Int(readLine()!)
-		// Ou en String
-		let s = readLine()!
-		// Et bien d'autres possibilités...
-	}
+if N > 0 
+{
+for i in 0...(N-1) 
+{
+// En Int
+let x = Int(readLine()!)
+// Ou en String
+let s = readLine()!
+// Et bien d'autres possibilités...
+}
 }
 
 // En tableau de données, par un "split" de la chaîne de caractères et l'utilisation de la closure map pour appliquer à chaque élément extrait la valeur souhaitée.
@@ -69,12 +77,14 @@ let N = Int(inputs[1])!
 // Ou bien aussi une combinaison des 2. Ici, il faudra faire un traitement spécifique
 let N = Int(readLine()!)! // N pour le nombre de données
 
-if N > 0 {
-	for i in 0...(N-1) {
-		let inputs = (readLine()!).split(separator: " ").map(String.init)
-		let C = Int(inputs[0])!
-		let N = Int(inputs[1])!
-	}
+if N > 0
+{
+for i in 0...(N-1) 
+{
+let inputs = (readLine()!).split(separator: " ").map(String.init)
+let C = Int(inputs[0])!
+let N = Int(inputs[1])!
+}
 }
 ```
 
@@ -103,8 +113,9 @@ La définition de ce flux d'erreur est systématiquement ajoutée à chaque test
 ```swift
 import Glibc
 
-public struct StderrOutputStream: TextOutputStream {
-	public mutating func write(_  string: String) { fputs(string, stderr) }
+public struct StderrOutputStream: TextOutputStream 
+{
+public mutating func write(_  string: String) { fputs(string, stderr) }
 }
 
 public var errStream = StderrOutputStream()
