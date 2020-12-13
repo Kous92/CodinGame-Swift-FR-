@@ -57,16 +57,14 @@ let entier = Int(readline()!)! // Type Int.
 // En boucle for
 let N = Int(readLine()!)! // N pour le nombre de données
 
-if N > 0 
-{
-for i in 0...(N-1) 
-{
-// En Int
-let x = Int(readLine()!)
-// Ou en String
-let s = readLine()!
-// Et bien d'autres possibilités...
-}
+if N > 0 {
+	for i in 0...(N-1) {
+		// En Int
+		let x = Int(readLine()!)
+		// Ou en String
+		let s = readLine()!
+		// Et bien d'autres possibilités...
+	}
 }
 
 // En tableau de données, par un "split" de la chaîne de caractères et l'utilisation de la closure map pour appliquer à chaque élément extrait la valeur souhaitée.
@@ -77,14 +75,12 @@ let N = Int(inputs[1])!
 // Ou bien aussi une combinaison des 2. Ici, il faudra faire un traitement spécifique
 let N = Int(readLine()!)! // N pour le nombre de données
 
-if N > 0
-{
-for i in 0...(N-1) 
-{
-let inputs = (readLine()!).split(separator: " ").map(String.init)
-let C = Int(inputs[0])!
-let N = Int(inputs[1])!
-}
+if N > 0 {
+	for i in 0...(N-1) {
+		let inputs = (readLine()!).split(separator: " ").map(String.init)
+		let C = Int(inputs[0])!
+		let N = Int(inputs[1])!
+	}
 }
 ```
 
@@ -113,9 +109,8 @@ La définition de ce flux d'erreur est systématiquement ajoutée à chaque test
 ```swift
 import Glibc
 
-public struct StderrOutputStream: TextOutputStream 
-{
-public mutating func write(_  string: String) { fputs(string, stderr) }
+public struct StderrOutputStream: TextOutputStream {
+	public mutating func write(_  string: String) { fputs(string, stderr) }
 }
 
 public var errStream = StderrOutputStream()
