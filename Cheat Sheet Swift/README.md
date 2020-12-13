@@ -160,6 +160,11 @@ let c: Int = 4 * Int(b) // AUTORISÉ, Swift reconnaît 2 Int pour la multiplicat
 ### Opérateurs logique (conditionnels)
 - `&&`: Expression logique "ET", où les 2 valeurs doivent être à `true` pour valoir `true`, `false` sinon.
 - `||`: Expression logique "OU", où l'une des 2 valeurs doit être à `true` pour valoir `true`.
+- `!`: Expression logique "NON", qui donne la valeur booléenne opposée de l'expression.
+```swift
+var a = true
+print(!a) // false
+```
 
 ### Opérateurs d'intervalles
 - `..<`: Intervalle semi-ouverte (la borne supérieure est exclue de l'intervalle) (`a ..< b`)
@@ -192,7 +197,6 @@ if âge >= 18 {
 ```
 
 Par rapport aux autres langages, il n'y a pas besoin de mettre les conditions entre parenthèses, c'est facultatif. Utile néanmoins pour des conditions multiples afin d'assurer une meilleure lisibilité du code.
-
 
 Si on a plusieurs conditions à vérifier, alors on utilise la structure "si-sinon si-sinon" (`if`, `else if`, `else`):
 ```swift
@@ -235,35 +239,71 @@ switch codeHttp {
 }
 ```
 
-### <a name="if"></a>Boucle for (for)
+Avec les opérateurs logiques, on peut combiner plusieurs expressions:
+```swift
+// De 0 à 20 par incrémentations de 2
+let a = 5
+let b = 7
+
+// "ET"
+if a < 10 && b < 10 {
+    print("OK")
+}
+
+// "OU"
+if a < 10 || b < 10 {
+    print("OK")
+}
+
+// Combinaison avec "NON", les parenthèses sont utiles. !(a < 10 && b < 10) = !a <> 10 && !b < 10 = a > 10 && b > 10
+if !(a < 10 && b < 10) {
+    print("OK")
+}
+```
+
+### <a name="if"></a>Boucle pour (for)
 
 Les boucles "pour" `for` permettent de répéter de façon itérative des instructions. Aussi, la boucle `for` est utilisée pour explorer les tableaux, les caractères des chaînes,... On sait exactement le nombre de fois que les instructions vont se répéter. En Swift, la syntaxe est différente des autres langages, on utilise la structure `for`...`in` avec une variable et l'opérateur d'intervalle `...` et `..<`.
 
 - Cas classique avec l'intervalle d'exclusion (**la borne supérieure est exclue de l'intervalle**):
 ```swift
-var n = 0
-
 // Répéter 5 fois les instructions
 for i in 0 ..< 5 {
-    n += 1
-    print("n = \(n)")
+    print("i = \(i)")
 }
 ```
 
 - Cas classique avec l'intervalle d'inclusion (**la borne supérieure est incluse dans l'intervalle**):
 ```swift
-var n = 0
-
 // Répéter 6 fois les instructions
 for i in 0 ... 5 {
-    n += 1
-    print("n = \(n)")
+    print("i = \(i)")
+}
+```
+
+- Pour faire l'intervalle dans le sens inverse, on donne l'intervalle entre parenthèse suivi de la méthode `reverse`.
+```swift
+// Compte à rebours de 10 à 0 au lieu de 0 à 10
+for i in (0 ... 10).reverse() {
+    print(i)
+}
+```
+- Pour faire une intervalle avec une itération d'une valeur spécifique au lieu de 1 à chaque fois, on utilise `stride(from: , to: , by: )`
+```swift
+// De 0 à 20 par incrémentations de 2
+for i in stride(from: 0, to: 20, by: 2) {
+    print(i)
+}
+
+// De 20 à 0 par décrémentations de 2 (on utilise une valeur négative dans by)
+for i in stride(from: 20, to: 0, by: -2) {
+    print(i)
 }
 ```
 
 ### <a name="if"></a>Boucle tant que (while / repeat-while)
 
-La boucle "tant que" (`while`) s'utilise pour répéter des opérations de façon indéterminée jusqu'à ce que la condition passe à `false`. Si la condition est déjà à `false`, la boucle `while` sera ignorée.
+La boucle "tant que" (`while`) s'utilise pour répéter des opérations de façon indéterminée jusqu'à ce que la condition passe à `false`. Si la condition est déjà à `false`, la boucle `while` sera ignorée. Les conditions s'écrivent avec des expressions logiques comme dans les conditions `if`.
 ```swift
 var n = 5
 
