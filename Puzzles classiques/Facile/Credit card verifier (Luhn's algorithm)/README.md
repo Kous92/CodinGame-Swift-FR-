@@ -87,21 +87,11 @@ Votre tâche est de lire plusieurs numéros de carte de l'entrée, et détermine
 
 
 ### Entrée
-- **Line 1**: Un entier `K` pour le nombre d'entrées.
+- **Line 1**: Un entier `N` pour le nombre de cartes à vérifier.
+- **`N` lignes suivantes**: Une ligne pour chaque carte à vérifier. Chaque test est constitué d'une chaîne de caractères de 4 chiffres chacun, séparées par un espace.
 
 ### Sortie
-- **Une ligne**: `K` nombres entiers séparés chacun par un espace: `N_1`, `N_2`, ... , `N_K`.
-
-### Contraintes
-1 ≤ `K` ≤ 100
-1 < `A_i` < 10000
-
-### Entrée
-- **Line 1**: An integer `N` for the number of cards to verify.
-- **Next `N` lines**: One line for each card to verify. Each test is consisting of four space-separated 4-digit strings.
-
-### Sortie
-**`N` lines**: Pour chaque test, afficher une ligne contenant `YES` ou `NO` dépendant du numéro de carte s'il est valide ou non, respectivement.
+**`N` lignes**: Pour chaque test, afficher une ligne contenant `YES` ou `NO` dépendant du numéro de carte s'il est valide ou non, respectivement.
 
 ### Exemple
 
@@ -109,4 +99,4 @@ Entrée | Sortie
 ------------ | -------------
 2<br>4556 7375 8689 9855<br>4024 0071 0902 2143| YES<br>NO
 
-[Code source de la solution]()
+[Code source de la solution](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Facile/Credit%20card%20verifier%20(Luhn's%20algorithm)/creditCard.swift)
