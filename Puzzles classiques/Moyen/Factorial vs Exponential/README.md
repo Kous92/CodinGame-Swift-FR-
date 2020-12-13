@@ -24,7 +24,7 @@ Input | Output
 ------------ | -------------
 2<br>2 3 | 4 7
 
-**MY SOLUTION IS OFFICIALLY THE WORLD'S FIRST IN SWIFT :)**
+**THIS SOLUTION IS OFFICIALLY THE WORLD'S FIRST IN SWIFT :)**
 
 **TRADUCTION (FRANÇAIS)**
 
@@ -47,6 +47,8 @@ Les nombres donnés peuvent avoir jusqu'à 2 chiffres après la virgule.
 Entrée | Sortie
 ------------ | -------------
 2<br>2 3 | 4 7
+
+**CETTE SOLUTION EN SWIFT EST LA TOUTE PREMIÈRE AU MONDE :)**
 
 ### Solution
 
