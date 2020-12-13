@@ -16,6 +16,7 @@ Voici un cheat sheet sur le langage Swift (pour Swift 5) avec des notions à ré
     + [Boucle pour (for)](#for)
     + [Boucle tant que (while/repeat-while)](#while)
 - [Chaînes de caractères](#strings)
+- [Optionnels](#optionals)
 
 ## <a name="basesyntax"></a>Syntaxe de base
 
@@ -133,7 +134,7 @@ var x = 2
 ```
 
 ### Opérateurs mathématiques basiques (type binaire)
-- `+` pour l'addition (ou la concaténation avec les chaînes de caractères) -> `a + b` (en String: `"a" + "b" -> "ab"`)
+- `+` pour l'addition (ou la concaténation avec les chaînes de caractères) -> `a + b` (en String: `"a" + "b" -> "ab"`).
 - `-` pour la soustraction -> `a - b`. Utilisé aussi pour inverser le signe d'un nombre: `-a`
 - `*` pour la multiplication -> `a * b`
 - `/` pour la division -> `a / b`
@@ -148,14 +149,32 @@ let c: Int = a * b // INTERDIT !
 let c: Int = 4 * Int(b) // AUTORISÉ, Swift reconnaît 2 Int pour la multiplication
 ```
 
-### Opérateurs logiques (conditionnels)
+### Opérateurs de comparaison (conditionnels)
 - `==` pour vérifier l'égalité entre 2 valeurs
+- `!=` pour vérifier l'inégalité entre 2 valeurs
 - `>` pour vérifier si la valeur est supérieure à l'autre valeur
 - `>=` pour vérifier si la valeur est supérieure ou égale à l'autre valeur
 - `<` pour vérifier si la valeur est inférieure à l'autre valeur
 - `<=` pour vérifier si la valeur est inférieure ou égale à l'autre valeur
-- `&&`
-- `||`
+
+### Opérateurs logique (conditionnels)
+- `&&`: Expression logique "ET", où les 2 valeurs doivent être à `true` pour valoir `true`, `false` sinon.
+- `||`: Expression logique "OU", où l'une des 2 valeurs doit être à `true` pour valoir `true`.
+
+### Opérateurs d'intervalles
+- `..<`: Intervalle semi-ouverte (la borne supérieure est exclue de l'intervalle) (`a ..< b`)
+- `...`: Intervalle fermée (la borne supérieure est incluse dans l'intervalle) (`a ..< b`)
+
+### Opérateurs d'intervalles (intervalle d'un côté)
+- `[n...]`: Intervalle ouverte de l'indice n au dernier indice
+- `[...n]`: Intervalle ouverte du premier indice jusqu'à l'indice n
+
+```swift
+let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+print(array[3...]) // De l'indice 3 à 9: [4, 5, 6, 7, 8, 9, 10]
+print(array[...4]) // De l'indice 0 à 4: [1, 2, 3, 4, 5]
+```
 
 ## <a name="controlflow"></a>Flux de contrôle
 
@@ -218,7 +237,49 @@ switch codeHttp {
 
 ### <a name="if"></a>Boucle for (for)
 
+Les boucles "pour" `for` permettent de répéter de façon itérative des instructions. Aussi, la boucle `for` est utilisée pour explorer les tableaux, les caractères des chaînes,... On sait exactement le nombre de fois que les instructions vont se répéter. En Swift, la syntaxe est différente des autres langages, on utilise la structure `for`...`in` avec une variable et l'opérateur d'intervalle `...` et `..<`.
+
+- Cas classique avec l'intervalle d'exclusion (**la borne supérieure est exclue de l'intervalle**):
+```swift
+var n = 0
+
+// Répéter 5 fois les instructions
+for i in 0 ..< 5 {
+    n += 1
+    print("n = \(n)")
+}
+```
+
+- Cas classique avec l'intervalle d'inclusion (**la borne supérieure est incluse dans l'intervalle**):
+```swift
+var n = 0
+
+// Répéter 6 fois les instructions
+for i in 0 ... 5 {
+    n += 1
+    print("n = \(n)")
+}
+```
+
 ### <a name="if"></a>Boucle tant que (while / repeat-while)
+
+La boucle "tant que" (`while`) s'utilise pour répéter des opérations de façon indéterminée jusqu'à ce que la condition passe à `false`. Si la condition est déjà à `false`, la boucle `while` sera ignorée.
+```swift
+var n = 5
+
+while n < 10 {
+    n += 1
+}
+```
+
+La boucle "faire-tant que" (`repeat-while`) fait comme la boucle `while`, sauf qu'elle répète au moins une fois les instructions de la boucle.
+```swift
+var n = 5
+
+repeat {
+    n += 1
+} while n < 10
+```
 
 ## <a name="strings"></a>Chaînes de caractères (String)
 
@@ -294,5 +355,8 @@ let n = Int(number)! // ATTENTION, Int(string) retourne Int?
 
 ### Sous-chaînes (Substring)
 
+En Swift, les sous-chaînes ont un type défini: `Substring`. Elles s'utilisent de façon temporaire avant d'être converties en `String` avec son constructeur dédié.
+
 ### Caractères
 
+## <a name="basesyntax"></a>Optionnels
