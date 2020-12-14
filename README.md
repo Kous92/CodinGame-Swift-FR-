@@ -1,7 +1,11 @@
 # CodinGame: langage Swift
 
+![CodinGame](https://www.it-connect.fr/wp-content-itc/uploads/2017/02/codingame-wall.jpg)
+
 ## Introduction
 Ici, je vais parler du **CodinGame**, et je mettrai en avant le langage Swift et ce qui réfère au développement iOS natif avec Swift et Xcode.
+
+![Swift logo](https://codabee.com/wp-content/uploads/2019/05/1280px-Swift_logo_with_text.svg_.png)
 
 Aujourd'hui, le **CodinGame** est utilisé par de plus en plus d'entreprises et de recruteurs (notamment dans les ESN/SSII) pour tester techniquement leurs candidats. De quoi s'agit-il au juste ?
 
