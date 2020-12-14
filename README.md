@@ -99,7 +99,7 @@ let n = Int(readline()!)!
 print(n * 2)
 ```
 
-Dans le cas d'un affichage sous forme de chaîne où chaque valeur est séparée par des espaces, il faut faire un combo de conversions de types, fonctions et closures. **ATTENTION: LA SOLUTION EST SENSIBLE À LA CASSE !**
+Dans le cas d'un affichage sous forme de chaîne où chaque valeur est séparée par des espaces, il faut faire un combo de conversions de types, fonctions et closures. **ATTENTION: LA SOLUTION EST SENSIBLE À LA CASSE ! LE VÉRIFICATEUR NE VALIDERA PAS LA SOLUTION SI LE FORMAT N'EST PAS RESPECTÉ DE FAÇON EXACTE !!!**
 
 ```swift
 var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
