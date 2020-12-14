@@ -25,24 +25,24 @@ Ici, je vous propose des solutions sur des puzzles que j'ai résolu (avec un sco
 
 ## Tests techniques
 
-Pour ce qui est des tests techniques des recruteurs, **CodinGame** est une solution mise en place afin de réduire les coûts pour le recrutement des développeurs par le biais de systèmes de tests techniques sous forme de QCM, de résolution de problèmes par le code et de correction de code (dans le même type que la résolution de problèmes). Ces tests utilisés peuvent être prédéfinis par CodinGame ou fait sur-mesure. Les recruteurs évalueront par le biais de ce test technique:
+Pour ce qui est des tests techniques des recruteurs, **CodinGame** est une solution mise en place afin de vérifier la fiabilité des candidats et de réduire les coûts pour le recrutement des développeurs par le biais de systèmes de tests techniques sous forme de QCM, de résolution de problèmes par le code et de correction de code (dans le même type que la résolution de problèmes). Ces tests utilisés peuvent être prédéfinis par CodinGame ou fait sur-mesure. Les recruteurs évalueront par le biais de ce test technique:
 
  - **Les connaissances de certaines notions provenant de frameworks**. En iOS, ce sera par exemple sur UIKit, Core Data, StoreKit,... Mais aussi du langage lui-même. **Le tout dans un temps très limité, sous forme de QCM.**
  - **L'efficacité de l'algorithme lors de la résolution du problème**, avec un pourcentage. Plus les jeux de tests sont validés, plus le score est élevé. **Ici, aucun framework n'est utilisé**, mais uniquement le langage Swift en lui-même, CodinGame utilisant actuellement le compilateur pour la version 5.1.1 du langage. **Le tout dans un temps limité.**
- - **La rapidité du candidat lorsqu'il résout le problème**. Certes ce n'est pas significatif dans la réalité au sein d'un projet client, mais cela impressionne les recruteurs (n'étant pas techniques eux-mêmes, principalement des Business Developers/Ingénieurs d'affaires) pour mettre en avant une plus-value lorsqu'ils doivent proposer des profils aux clients pour ainsi valider l'embauche.
+ - **La rapidité du candidat lorsqu'il résout le problème**. Certes ce n'est pas significatif dans la réalité au sein d'un projet client, mais cela impressionne les recruteurs (n'étant pas techniques eux-mêmes, principalement des Business Developers/Business Managers/Ingénieurs d'affaires ou directement des RH) pour mettre en avant une plus-value lorsqu'ils doivent proposer des profils aux clients et chefs de projets pour ainsi valider l'embauche.
 
 Au final, le recruteur va récupérer un rapport comprenant les résultats du candidat et va ainsi décider de la suite du processus de recrutement. **ATTENTION: Réussir au CodinGame ne va pas forcément dispenser le candidat d'un test technique plus précis par la suite ! Et particulièrement sur des frameworks spécifiques en question !**
 
-À titre personnel, j'ai déjà effectué lors de certains processus de recrutements pour mon stage de fin d'études et pour mon premier emploi des tests techniques avec **CodinGame** sur les notions suivantes:
+À titre personnel, j'ai déjà effectué lors de certains processus de recrutement pour mon stage de fin d'études et pour mon premier emploi des tests techniques avec **CodinGame** sur les notions suivantes:
  - Android avec Java
  - iOS avec Swift
  - Java
  - PHP/mySQL
  - JavaScript
 
-**Le principal inconvénient de ces tests est le fait qu'il est difficile d'écrire du code propre et bien structuré en peu de temps, étant donné que tout est automatisé et que les recruteurs ne regardent pas le code mais le score. Donc, il est très important de ne pas trop perdre de temps là-dessus !**
+**Le principal inconvénient de ces tests est le fait qu'il est difficile d'écrire du code propre et bien structuré en peu de temps, étant donné que tout est automatisé et que les recruteurs ne regardent pas le code mais le score. Donc, il est très important de ne pas perdre de temps là-dessus !**
 
-Pour nous, jeunes diplômés, étudiants et développeurs juniors, le **CodinGame** est pour nous "la bête noire", du fait que ces tests sont généralement déstabilisants par la forme dont les tests sont mis en place et plus particulièrement lorsqu'il faut résoudre le problème le plus difficile du test en temps très limité ou corriger du code avec un énoncé généralement peu clair. Il est donc nécessaire de s'entraîner dès que possible sur cette plateforme avec les puzzles et le Clash of Code pour pouvoir améliorer ses capacités à résoudre plus rapidement un problème. Une fois le **CodinGame** bien appréhendé, la seule difficulté restera dans l'algorithme à implémenter en fonction du problème à résoudre.
+Pour nous, jeunes diplômés, étudiants et développeurs juniors, le **CodinGame** est pour nous "la bête noire", du fait que ces tests sont généralement déstabilisants par la forme dont les tests sont mis en place et plus particulièrement lorsqu'il faut résoudre le problème le plus difficile du test en temps très limité ou corriger du code avec un énoncé généralement peu clair. Il est donc nécessaire de s'entraîner dès que possible sur cette plateforme avec les puzzles et le Clash of Code pour pouvoir améliorer ses capacités à résoudre plus rapidement un problème, et exploiter davantage les astuces du langage de programmation. De plus, il faut être en mesure de connaître les notions les plus importantes du langage, framework,... pour répondre correctement aux questions du QCM. Une fois le **CodinGame** bien appréhendé, la seule difficulté restera dans l'algorithme à implémenter en fonction du problème à résoudre.
 
 ## Résolution du problème: les choses à savoir pour bien s'en sortir au CodinGame
 
@@ -97,6 +97,15 @@ let n = Int(readline()!)!
 
 // Solution à fournir qui sera vérifiée lors de l'exécution des jeux de tests.
 print(n * 2)
+```
+
+Dans le cas d'un affichage sous forme de chaîne où chaque valeur est séparée par des espaces, il faut faire un combo de conversions de types, fonctions et closures. **ATTENTION: LA SOLUTION EST SENSIBLE À LA CASSE !**
+
+```swift
+var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+// Affiche "1 2 3 4 5 6 7 8 9 10"
+print(array.map{String($0)}.joined(separator: " "))
 ```
 
 #### Le débug
