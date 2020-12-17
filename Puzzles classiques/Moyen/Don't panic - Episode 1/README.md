@@ -99,4 +99,4 @@ Marvin à lunettes :  *Idiot, tu as oublié de te compter ! *
 
 Grand Marvin :  *En avant... *
 
-[Code source de la solution](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Moyen/Suite%20de%20Conway/suiteConway.swift)
+[Code source de la solution](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Moyen/Don't%20panic%20-%20Episode%201/dontPanicEP1.swift)
