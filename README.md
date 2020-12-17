@@ -21,7 +21,7 @@ Dans le cadre des puzzles ou du Clash of Code, le but étant de valider des jeux
 
 Ici, je vous propose des solutions sur des puzzles que j'ai résolu (avec un score de 100%) en Swift:
 - [Puzzles faciles](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile): **7 puzzles résolus**
-- [Puzzles moyens](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen): **3 puzzles résolus**
+- [Puzzles moyens](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen): **5 puzzles résolus**
 
 ## Tests techniques
 
