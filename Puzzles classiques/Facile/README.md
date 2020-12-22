@@ -1,6 +1,6 @@
 # CodinGame Puzzles classiques - Facile
 
-Voici les solutions des puzzles faciles que j'ai résolu en Swift
+Voici les solutions des puzzles faciles que j'ai résolu en Swift.
 
  **8 puzzles résolus**
 - [ASCII ART](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/ASCII%20ART)
