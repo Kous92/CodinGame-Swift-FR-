@@ -43,4 +43,4 @@ Entrée | Sortie
 ------------ | -------------
 3,879483<br>43,608177<br>3<br>1;Maison de la Prevention Sante;6 rue Maguelone 340000 Montpellier;;3,87952263361082;43,6071285339217<br>2;Hotel de Ville;1 place Georges Freche 34267 Montpellier;;3,89652239197876;43,5987299452849<br>3;Zoo de Lunaret;50 avenue Agropolis 34090 Mtp;;3,87388031141133;43,6395872778854 | Maison de la Prevention Sante
 
-[Code source de la solution](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Facile/Chevaux%20de%20course/chevauxDeCourse.swift)
+[Code source de la solution](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Facile/D%C3%A9fibrillateurs/defibrillateurs.swift)
