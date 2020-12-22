@@ -11,4 +11,3 @@ Voici les solutions des puzzles faciles que j'ai résolu en Swift.
 - [Mars Lander - Episode 1](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Mars%20Lander%20-%20Episode%201)
 - [Onboarding](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Onboarding)
 - [7-segment scanner](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/7-segment%20scanner)
-- [Défibrillateurs](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/7-segment%20scanner)
