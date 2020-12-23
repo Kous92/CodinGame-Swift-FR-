@@ -1,4 +1,4 @@
-# CodinGame: Factorial vs Exponential
+# CodinGame: Credit card verifier (Luhn's algorithm)
 
 ### Puzzle de la communauté proposé par AminGholizad.
 
