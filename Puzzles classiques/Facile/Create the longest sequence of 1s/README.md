@@ -7,7 +7,7 @@
 ### Goal
 Given some bitstring `b`, you may change one bit from a 0 to a 1 in order to create the longest possible sequence of consecutive 1s. Output the length of the resulting longest sequence.
 
-Example: 11011101111
+Example: 11011101111.
 Flipping the second 0 results in 11011111111, where the longest sequence of 1s is 8 long.
 
 ### Input
@@ -31,6 +31,9 @@ Input | Output
 ## Objectif
 
 Étant donné une chaîne de bits `b`, vous pouvez changer un bit de 0 à 1 dans le but de créer la plus longue séquence de 1 consécutifs. Affichez la longueur de la plus longue séquence résultante.
+
+Exemple: 11011101111.
+Échanger le 0 en 1 donne 11011111111, où la longueur de la plus longue séquence de 1 est de 8.
 
 ### Entrée
 - **Ligne 1**: La chaîne de bits `b`.
