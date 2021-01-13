@@ -2,9 +2,10 @@
 
 Voici les solutions des puzzles faciles que j'ai résolu en Swift.
 
- **10 puzzles résolus**
+ **11 puzzles résolus**
 - [ASCII ART](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/ASCII%20ART)
 - [Chevaux de course](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Chevaux%20de%20course)
+- [Create the longest sequence of 1s](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Create%20the%20longest%20sequence%20of%201s)
 - [Credit card verifier (Luhn's algorithm)](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Credit%20card%20verifier%20(Luhn's%20algorithm))
 - [Défibrillateurs](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/D%C3%A9fibrillateurs)
 - [Happy Numbers](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Facile/Happy%20Numbers)

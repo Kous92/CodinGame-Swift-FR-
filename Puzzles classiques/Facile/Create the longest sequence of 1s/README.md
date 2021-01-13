@@ -48,4 +48,4 @@ Entrée | Sortie
 ------------ | -------------
 00 | 1
 
-[Code source de la solution](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Facile/Credit%20card%20verifier%20(Luhn's%20algorithm)/creditCard.swift)
+[Code source de la solution](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Facile/Create%20the%20longest%20sequence%20of%201s/longest1sequence.swift)
