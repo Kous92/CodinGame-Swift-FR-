@@ -2,7 +2,7 @@
 
 Voici les solutions des puzzles faciles que j'ai résolu en Swift.
 
- **11 puzzles résolus**
+ **12 puzzles résolus**
 - [ASCII ART](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/ASCII%20ART)
 - [Chevaux de course](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Chevaux%20de%20course)
 - [Create the longest sequence of 1s](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Create%20the%20longest%20sequence%20of%201s)
@@ -13,4 +13,5 @@ Voici les solutions des puzzles faciles que j'ai résolu en Swift.
 - [Mars Lander - Episode 1](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Mars%20Lander%20-%20Episode%201)
 - [Onboarding](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Onboarding)
 - [Smooth!](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Smooth!)
+- [Températures](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Temp%C3%A9ratures)
 - [7-segment scanner](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/7-segment%20scanner)
