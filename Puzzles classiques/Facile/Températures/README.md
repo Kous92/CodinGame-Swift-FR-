@@ -1,12 +1,14 @@
 # CodinGame: Températures
 
+## NOTE: Ce problème est également présent dans les tutoriels des tests recruteurs de la solution CodinGame for Work. ATTENTION: Le niveau est plus exigeant que sur la version grand public de CodinGame avec des validateurs plus stricts !
+
 ## ÉNONCÉ
 Votre programme doit analyser des relevés de température pour trouver la plus proche de zéro
 
 ## Objectif
 Dans cet exercice, vous devez analyser un relevé de températures pour trouver quelle température se rapproche le plus de zéro.
 
-- **Exemple de températures**: Ici, -1 est le plus proche de 0.
+- **Exemple de températures**: Ici, -1 est le plus proche de 0.<br>
 ![Températures](temperatures.png)
 
 ## Règles
