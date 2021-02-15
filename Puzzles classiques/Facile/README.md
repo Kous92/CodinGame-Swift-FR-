@@ -2,7 +2,8 @@
 
 Voici les solutions des puzzles faciles que j'ai résolu en Swift.
 
- **13 puzzles résolus**
+**14 puzzles résolus**
+- [Add'em Up](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Add%27em%20Up)
 - [ASCII ART](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/ASCII%20ART)
 - [Chevaux de course](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Chevaux%20de%20course)
 - [Create the longest sequence of 1s](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Create%20the%20longest%20sequence%20of%201s)
