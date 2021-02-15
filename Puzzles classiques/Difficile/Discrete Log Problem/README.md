@@ -40,25 +40,18 @@ Input | Output
 
 ## Objectif
 
-ElGamal encryption is a public-key cryptosystem. It uses asymmetric key encryption for a safe communication between two people.
-
-Let us assume that Alice wants to communicate with Bob. Alice generates three large random integers:
-- `Q` a prime used as the order of the key
-- 0 < `G` < `Q` a generator
-- `X`, Alice's secret key
-
-Alice computes `H` = `G`^`X` mod `Q` and publicly shares with Bob the public key (`G`, `H`, `Q`). As an attacker, you intercept this key and decide to spy on their communications. To do so, you need to find Alice's secret key `X`. This can be done by performing a discrete logarithm attack on this key.
-
-Given the public key (`G`, `H`, `Q`), you are asked to perform this attack: find the lowest integer `X` such that `G`^`X` mod `Q` = `H`.
-
-The rest of this protocol is not explained to avoid overload but it can be found on https://en.wikipedia.org/wiki/ElGamal_encryption
-
 La cryptographie ElGamal est un cryptosystème à clé publique. Elle utilise une cryptographie asymétrique à clé pour une communication sûre entre 2 personnes.
 
 Supposons qu'Alice veut communiquer avec Bob. Alice génère 3 grands nombres entiers aléatoires:
 - `Q` un entier premier en tant qu'ordre de la clé
 - 0 < `G` < `Q` un générateur
 - `X`, la clé secrète d'Alice.
+
+Alice calcule `H` = `G`^`X` mod `Q` et partage publiquement avec Bob sa clé publique (`G`, `H`, `Q`). En tant qu'attaquant, vous interceptez cette clé et vous décidez d'espionner leurs communications. Pour le faire, vous devez trouvez la clé secrète d'Alice qui est `X`. Cela peut être effectué par une attaque de cette clé en logarithme discret.
+
+Ayant la clé publique (`G`, `H`, `Q`), on vous demande d'effectuer cette attaque: trouvez le plus petit entier `X` tel que `G`^`X` mod `Q` = `H`.
+
+Le reste de ce protocole n'est pas expliqué pour éviter la surcharge, mais elle peut être trouvée ici: https://en.wikipedia.org/wiki/ElGamal_encryption
 
 ### Entrée
 - **Ligne 1:** La clé publique (`G`, `H`, `Q`)
