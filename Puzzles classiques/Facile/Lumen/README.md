@@ -70,17 +70,21 @@ Vous allez recevoir une carte de la pièce, avec les emplacements vides (`X`) et
 
 Exemple pour la propagation de la lumière avec `N` = 5, `L` = 3:
 
+```
 X X X X X
 X C X X X
 X X X X X
 X X X X X
 X X X X X
+```
 
+```
 2 2 2 1 0
 2 3 2 1 0
 2 2 2 1 0
 1 1 1 1 0
 0 0 0 0 0
+```
 
 ### Entrée
 - **Ligne 1:** Un entier `N` pour la longueur d'un côté de la pièce
