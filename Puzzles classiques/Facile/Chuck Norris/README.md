@@ -1,9 +1,10 @@
 # CodinGame: Chuck Norris
 
 ## Que vais-je apprendre ?
-Dans ce puzzle, vous devez séparer une chaîne de caractères en plusieurs morceaux, comparer et reconnaître des chaînes de caractères similaires en utilisant un algorithme qui n'est pas sensible à la casse.
+Résoudre ce puzzle vous fait convertir des caractères en leur valeur numérique ainsi que convertir des chiffres en valeurs binaires.
+Il vous faut aussi parcourir une liste de bit d'une valeur numérique.
 
-Vous devez aussi créer et utiliser un tableau associatif et parcourir un large ensemble de données.
+**Ressources externes: [Masquage](https://fr.wikipedia.org/wiki/Masquage), [Décalage de bits](https://fr.wikipedia.org/wiki/Op%C3%A9ration_bit_%C3%A0_bit#D.C3.A9calages_de_bit), [Table ASCII](http://ascii.cl/)**
 
 ## Objectifs
 Le binaire avec des **0** et des **1** c'est bien. Mais le binaire avec que des 0, ou presque, c'est encore mieux. A l'origine, c'est un concept inventé par Chuck Norris pour envoyer des messages dits *unaires*.
