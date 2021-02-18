@@ -2,7 +2,7 @@
 
 Voici les solutions des puzzles faciles que j'ai résolu en Swift.
 
-**17 puzzles résolus**
+**19 puzzles résolus**
 - [Add'em Up](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Add%27em%20Up)
 - [ASCII ART](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/ASCII%20ART)
 - [Chevaux de course](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Chevaux%20de%20course)
@@ -19,4 +19,6 @@ Voici les solutions des puzzles faciles que j'ai résolu en Swift.
 - [Onboarding](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Onboarding)
 - [Smooth!](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Smooth!)
 - [Températures](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Temp%C3%A9ratures)
+- [The River I](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Facile/The%20River%20I)
+- [The River II](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Facile/The%20River%20II)
 - [7-segment scanner](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/7-segment%20scanner)

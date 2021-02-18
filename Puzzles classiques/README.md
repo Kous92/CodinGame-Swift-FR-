@@ -13,6 +13,6 @@ Ces puzzles sont pour la plupart de type "gamifié" car cela vient directement d
 - [NINTENDO SPONSORED PUZZLE (Difficulté: Très difficile)](https://www.codingame.com/training/expert/nintendo-sponsored-contest): **Résolvable exclusivement en C++**
 
 Ici, je vous propose des solutions sur des puzzles que j'ai résolu (avec un score de 100%) en Swift:
-- [Puzzles faciles](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile): **17 puzzles résolus**
+- [Puzzles faciles](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile): **19 puzzles résolus**
 - [Puzzles moyens](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen): **5 puzzles résolus**
 - [Puzzles difficiles](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Difficile): **1 puzzle résolu**
