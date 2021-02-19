@@ -2,7 +2,8 @@
 
 Voici les solutions des puzzles moyens que j'ai résolu en Swift
 
- **5 puzzles résolus**
+ **6 puzzles résolus**
+- [ANEO Sponsored Challenge](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/ANEO%20Sponsored%20Challenge) **(Puzzle spécial sponsorisé par les recruteurs d'ANEO, les autres solutions ne sont pas affichées)**
 - [Don't panic - Episode 1](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/Don't%20panic%20-%20Episode%201)
 - [Factorial vs Exponential](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/Factorial%20vs%20Exponential)
 - [Pertes en bourse](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/Pertes%20en%20bourse)
