@@ -47,11 +47,8 @@ Maintenant on souhaite toujours acheter un cadeau qui coute 100 mais le deuxièm
 Entrée | Sortie
 ------------ | -------------
 3 | 3
------------- | -------------
 100 | 48
------------- | -------------
 100 | 49
------------- | -------------
 
 ## Entrées du jeu
 
@@ -69,18 +66,15 @@ Entrée | Sortie
 - 0 ≤ `C` ≤ 1000000000
 - 0 ≤ `B` ≤ 1000000000
 
-### Exemple
-- 1:
+### Exemples
 Entrée | Sortie
 ------------ | -------------
 3<br>100<br>20<br>20<br>40 | IMPOSSIBLE
 
-- 2:
 Entrée | Sortie
 ------------ | -------------
 3<br>100<br>40<br>40<br>40 | 33<br>34<br>34
 
-- 3:
 Entrée | Sortie
 ------------ | -------------
 3<br>100<br>100<br>1<br>60 | 1<br>49<br>60
