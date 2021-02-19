@@ -4,16 +4,16 @@
 
 Ce puzzle est un puzzle sponsorisé par une entreprise dans le but de recruter des développeurs, ici ANEO, étant une ESN comme Capgemini, ASTEK, ALTEN, VISEO, AUBAY, Extia, agap2IT,... située à Boulogne-Billancourt (92, Hauts-de-Seine, France). Vous ne pouvez pas dans les puzzles sponsorisés consulter les autres solutions si vous avez résolu le puzzle avec un score de 100%, le but étant de recruter des développeurs opérationnels pour les clients d'ANEO, dans le cadre de missions.
 
+[Site de l'entreprise (à consulter impérativement si vous comptez postuler)](https://www.aneo.eu/)
+
 Si vous réussissez à résoudre ce puzzle à 100%, vous tomberez sur cette interface ci-dessous où vous pourrez soumettre votre candidature spontanée en y déposant votre CV, et en renseignant vos coordonnées, vos disponibilités, un message, et le lien vers votre profil LinkedIn.
 
 ![ANEO recrute](ANEOrecrute.png)
 ![Validateurs + code](validateursANEO.png)
-<br>
-- **Les détails concernant ANEO:**
-![À propos d'ANEO](introANEO1.png)
-![À propos d'ANEO](introANEO2.png)
-<br>
-[Site de l'entreprise (à consulter impérativement si vous comptez postuler)](https://www.aneo.eu/)
+
+### Les détails concernant ANEO
+- ![À propos d'ANEO](introANEO1.png)
+- ![À propos d'ANEO](introANEO2.png)
 
 - **En cliquant sur le bouton "Laisser mes coordonnées", voici l'interface pour soumettre sa candidature spontanée:**
 ![Coordonnées pour les recruteurs d'ANEO](coordonneesANEO.png)
