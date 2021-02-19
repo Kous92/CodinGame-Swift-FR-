@@ -115,6 +115,7 @@ func isEveryLightGreen(lights: [LightTraffic], speed: Int) -> Bool {
 
     return true
 }
+```
 
 - 3.1) On calcule le temps de trajet: `distance / vitesse`. La vitesse initialement en km/h doit être en m/s:
 ```swift
