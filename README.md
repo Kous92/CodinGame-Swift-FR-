@@ -4,7 +4,7 @@
 
 ## Mon profil CodinGame
 Pour consulter, mon profil de développeur sur **CodinGame**, [c'est ici](https://www.codingame.com/profile/7db76a59bcdf34852132ed82e45bf4f62696733)
-- **Niveau actuel: 14** (rang bronze)
+- **Niveau actuel: 15** (rang bronze)
 - **Niveau langage Swift: 5 (NIVEAU MAX)**
 
 ## Introduction
@@ -25,9 +25,9 @@ Dans le cadre des puzzles ou du Clash of Code, le but étant de valider des jeux
 ## Puzzles
 
 Ici, je vous propose des solutions sur des puzzles que j'ai résolu (avec un score de 100%) en Swift:
-- [Puzzles classiques](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques): **26 puzzles résolus**
+- [Puzzles classiques](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques): **27 puzzles résolus**
 	+ [Puzzles faciles](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile): **19 puzzles résolus**
-	+ [Puzzles moyens](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen): **6 puzzles résolus**
+	+ [Puzzles moyens](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen): **7 puzzles résolus**
 	+ [Puzzles difficiles](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Difficile): **1 puzzle résolu**
 
 ## Tests techniques
