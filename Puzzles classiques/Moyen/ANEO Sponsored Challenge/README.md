@@ -66,7 +66,7 @@ Tous les feux passent au vert en même temps dès votre entrée dans la zone.
 ### Contraintes
 - 1 ≤ `speed` ≤ 200
 - 1 ≤ `lightCount` ≤ 9999
-- 1 ≤ ``distance` ≤ 99999
+- 1 ≤ `distance` ≤ 99999
 - 1 ≤ `duration` ≤ 9999
 
 ### Exemple
@@ -74,5 +74,106 @@ Tous les feux passent au vert en même temps dès votre entrée dans la zone.
 Entrée | Sortie
 ------------ | -------------
 50<br>1<br>200 15 | 50
+
+## Solution
+
+La principale difficulté de ce puzzle est de pouvoir gérer la précision du résultat, une maladresse rendra la solution invalide. Le but est de pouvoir s'assurer qu'à une vitesse précise l'ensemble des feux soient verts.
+
+- 1. Créer une structure pour y mettre la distance et la durée du prochain feu tricolore
+```swift
+struct LightTraffic {
+    let distance: Int
+    let duration: Int
+
+    init(distance: Int, duration: Int) {
+        self.distance = distance
+        self.duration = duration
+    }
+}
+```
+
+- 2. Remplir un tableau avec les données en entrée de chaque feu tricolore
+```swift
+let maxSpeed = Int(readLine()!)! // Limite de vitesse
+let lightCount = Int(readLine()!)! // Nombre de feux tricolores
+var lightsTraffic = [LightTraffic]()
+
+if lightCount > 0 {
+    for _ in 0 ..< lightCount {
+        let inputs = (readLine()!).split(separator: " ").map(String.init)
+        lightsTraffic.append(LightTraffic(distance: Int(inputs[0])!, duration: Int(inputs[1])!))
+    }
+}
+```
+
+- 3. Dans une fonction, on va vérifier à une vitesse que l'ensemble des feux soient verts dans une boucle qui va parcourir l'ensemble des feux tricolores:
+```swift
+func isEveryLightGreen(lights: [LightTraffic], speed: Int) -> Bool {
+    for light in lights {
+        
+    }
+
+    return true
+}
+
+- 3.1) On calcule le temps de trajet: `distance / vitesse`. La vitesse initialement en km/h doit être en m/s:
+```swift
+let travelTime = Float(light.distance) / (Float(speed) / 3.6)
+```
+
+- 3.2) Il faut impérativement vérifier que le résultat soit arrondi à l'unité:
+```swift
+let travelTimeRounded = roundf(travelTime)
+
+// Vérifier la précision après la virgule, aucun chiffre ne doit y être
+let isRounded = travelTimeRounded - travelTime < 0.01
+let totalTravelTime = isRounded ? travelTimeRounded : travelTime
+```
+
+- 3.3) L'état du feu tricolore se calcule avec le rapport entre le temps de trajet et la durée du feu tricolore. Le feu est vert si le rapport est divisible par 2, rouge sinon. Si le feu est rouge, on arrête la fonction en retournant `false`. Retourner `true` après la boucle:
+```swift
+let ratioWithLightDuration = floorf(totalTravelTime / Float(light.duration))
+
+if Int(ratioWithLightDuration) % 2 != 0 {
+    return false
+}
+```
+
+- 3.4) L'implémentation complète de la fonction
+```swift
+func isEveryLightGreen(lights: [LightTraffic], speed: Int) -> Bool {
+    for light in lights {
+        // Time to travel: distance / (speed / 3.6). km/h to m/s = km/h / 3.6
+        let travelTime = Float(light.distance) / (Float(speed) / 3.6)
+
+        // Round to integer, no digits for the float part
+        let travelTimeRounded = roundf(travelTime)
+
+        // Checking float precision
+        let isRounded = travelTimeRounded - travelTime < 0.01
+        let totalTravelTime = isRounded ? travelTimeRounded : travelTime
+
+        // Green light is even number: If total travel time / light duration is dividable by 2
+        let ratioWithLightDuration = floorf(totalTravelTime / Float(light.duration))
+        
+        // Odd: red light, even: green light
+        if Int(ratioWithLightDuration) % 2 != 0 {
+            return false
+        }
+    }
+
+    return true
+}
+```
+
+- 4. Tester chaque vitesse de la limite jusqu'à 0 en décrémentant de 1 en exécutant la fonction précédemment implémentée. Si la vitesse est correcte, interrompez l'exécution de la boucle avec `break`.
+```swift
+for speed in (0 ... maxSpeed).reversed() {
+    if isEveryLightGreen(lights: lightsTraffic, speed: speed) {
+        print(speed)
+        break
+    }
+}
+```
 
 [Code source de la solution](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Moyen/ANEO%20Sponsored%20Challenge/aneo.swift)
