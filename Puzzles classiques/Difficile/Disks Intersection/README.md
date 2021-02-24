@@ -41,6 +41,9 @@ Si les disques ne se coupent pas, ou ne se coupent pas en un point, alors l'aire
 - **Ligne 1**: `x1`, `y1`, `r1`. `x1` et `y1` determinent la position du centre du premier disque, et `r1` son rayon
 - **Ligne 2**: `x2`, `y2`, `r2`. `x2` et `y2` determinent la position du centre du second disque, and `r2` son rayon
 
+### Sortie
+- L'aire de la zone d'intersection des 2 disques, arrondie à une précision de 10^-2 (2 chiffres après la virgule).
+
 ### Contraintes
 - -1000 < `x1`, `y1`, `x2`, `y2` < 1000
 - 1 ⩽ `r1`, `r2` < 1000
