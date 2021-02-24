@@ -68,7 +68,7 @@ On multiplie 12 par 5, voici ce que vous avez à afficher, excepté les commenta
 
 ### Exemple
 
-Input | Output
+Entrée | Sortie
 ------------ | -------------
 3 12 | 12 * 3<br>= 12 * 2 + 12<br>= 24 * 1 + 12<br>= 24 * 0 + 12 + 24<br>= 36
 
