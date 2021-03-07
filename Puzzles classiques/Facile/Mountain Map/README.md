@@ -24,7 +24,7 @@ An ASCII representation of the mountain where each rise in the mountain is repre
 
 Input | Output
 ------------ | -------------
-3<br>1 2 1| "    /\    "<br>"/\/  \/\"
+3<br>1 2 1| "    /\    "<br>"/\\/  \\/\\"
 
 **TRADUCTION (FRANÇAIS)**
 
