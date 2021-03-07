@@ -2,7 +2,7 @@
 
 Voici les solutions des puzzles faciles que j'ai résolu en Swift.
 
-**21 puzzles résolus**
+**22 puzzles résolus**
 - [Add'em Up](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Add%27em%20Up)
 - [ASCII ART](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/ASCII%20ART)
 - [Brick in the Wall](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Brick%20in%20the%20Wall)
@@ -18,6 +18,7 @@ Voici les solutions des puzzles faciles que j'ai résolu en Swift.
 - [Mars Lander - Episode 1](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Mars%20Lander%20-%20Episode%201)
 - [MIME Type](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/MIME%20Type)
 - [Number Derivation](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Facile/Number%20Derivation)
+- [Mountain Map](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Facile/Mountain%20Map)
 - [Onboarding](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Onboarding)
 - [Smooth!](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Smooth!)
 - [Températures](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Temp%C3%A9ratures)

@@ -1,6 +1,6 @@
-# CodinGame: Nombre d'échanges minimum
+# CodinGame: Expressions parenthésées
 
-## Puzzle de la communauté proposé par Delgan
+## Puzzle de la communauté proposé par Plopx
 
 ## Objectif
 
