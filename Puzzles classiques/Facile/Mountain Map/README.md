@@ -24,7 +24,7 @@ An ASCII representation of the mountain where each rise in the mountain is repre
 
 Input | Output
 ------------ | -------------
-3<br>1 2 1| "    /\    "<br>"/\\/  \\/\\"
+3<br>1 2 1| "      /\      "<br>"/\\/  \\/\\"
 
 **TRADUCTION (FRANÇAIS)**
 
@@ -49,7 +49,6 @@ Une représentation ASCII de la montagne où chaque élévation de la montagne e
 
 Entrée | Sortie
 ------------ | -------------
-3<br>1 2 1| ```    /\    
-/\/  \/\```
+3<br>1 2 1| "      /\      "<br>"/\\/  \\/\\"
 
 [Code source de la solution](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Facile/Mountain%20Map/mountainMap.swift)
