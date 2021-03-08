@@ -83,7 +83,7 @@ Le but de ce puzzle est de trouver la `longueur` de la boucle (il y a toujours u
 
 Dans les exemples ci-dessous, le tour 0 se réfère au nombre de départ de cartes dans chaque pile, et les autres tours se réfèrent au nombre de cartes dans chaque pile (incluant les piles nouvellement créées) après chaque tour.
 
-### Example 1
+### Exemple 1
 
 - Tour 0 | 3
 - Tour 1 | 2 1
@@ -91,7 +91,7 @@ Dans les exemples ci-dessous, le tour 0 se réfère au nombre de départ de cart
 
 En ignorant l'ordre et les piles sans cartes, Tour 1 et Tour 2 montrent la même configuration étant 1 2. La `longueur` de la boucle est 1.
 
-### Example 2
+### Exemple 2
 
 - Tour 0 | 1 3 3 4
 - Tour 1 | 0 2 2 3 4
@@ -102,7 +102,7 @@ En ignorant l'ordre et les piles sans cartes, Tour 1 et Tour 2 montrent la même
 
 En ignorant l'ordre et les piles sans cartes, Tour 0 et Tour 5 montrent la même configuration étant 1 3 3 4. La `longueur` de la boucle est 5.
 
-### Example 3
+### Exemple 3
 
 - Tour 0 | 1 0 5 1
 - Tour 1 | 0 0 4 0 3
