@@ -63,7 +63,7 @@ Un joueur est déclaré gagnant si son adversaire n'a plus de cartes dans son ta
 - Si les joueurs terminent ex aequo : **`PAT`**
  
 ### Contraintes
-- 0 < `N`, `M` <> 2000
+- 0 < `N`, `M` < 1000
 
 ### Exemples
 Entrée | Sortie
