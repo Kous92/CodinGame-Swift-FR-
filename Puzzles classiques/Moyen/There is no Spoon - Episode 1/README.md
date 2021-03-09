@@ -39,13 +39,13 @@ Vous **perdez** si :
 Vous gagnez la partie quand tous les voisins de tous les nœuds ont été affichés de manière correcte.
 
 ## Exemples
-- 1: 3 nœuds dans une grille de 2x2. La cellule (1, 1) est vide.
+- 1: 3 nœuds dans une grille de 2x2. La cellule (1, 1) est vide.<br>
 ![Exemple 1](Ex1.png)
-- 2: Le nœud de la cellule (0,0) a 2 voisins.
+- 2: Le nœud de la cellule (0,0) a 2 voisins.<br>
 ![Exemple 2](Ex2.png)
-- 3: Le nœud de la cellule (1,0) n'a aucun voisin.
+- 3: Le nœud de la cellule (1,0) n'a aucun voisin.<br>
 ![Exemple 3](Ex3.png)
-- 4: Le nœud de la cellule (0,1) n'a aucun voisin.
+- 4: Le nœud de la cellule (0,1) n'a aucun voisin.<br>
 ![Exemple 4](Ex4.png)
 
 ## Note
