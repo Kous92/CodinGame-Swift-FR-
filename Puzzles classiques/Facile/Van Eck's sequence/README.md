@@ -12,12 +12,11 @@ For a series starting with `A1` as 0, the series will be:
 
 0, 0, 1, 0, 2, 0, 2, 2, 1, 6, 0, 5, 0, 2, 6, 5, 4, 0, 5, 3, 0, 3, …
 
-
-Term 1: The first term is 0.
-Term 2: Since we haven’t seen 0 before, the second term is 0.
-Term 3: Since we had seen a 0 before, one step back, the third term is 1
-Term 4: Since we haven’t seen a 1 before, the fourth term is 0
-Term 5: Since we had seen a 0 before, two steps back, the fifth term is 2.
+- Term 1: The first term is 0.
+- Term 2: Since we haven’t seen 0 before, the second term is 0.
+- Term 3: Since we had seen a 0 before, one step back, the third term is 1
+- Term 4: Since we haven’t seen a 1 before, the fourth term is 0
+- Term 5: Since we had seen a 0 before, two steps back, the fifth term is 2.
 
 And so on...
 
@@ -48,12 +47,11 @@ Pour un serie démarrant avec A1 à 0, la série sera comme ceci:
 
 0, 0, 1, 0, 2, 0, 2, 2, 1, 6, 0, 5, 0, 2, 6, 5, 4, 0, 5, 3, 0, 3, …
 
-
-Terme 1: Le premier terme est 0.
-Terme 2: Puisque nous n'avons pas vu 0 auparavant, le second terme est 0.
-Terme 3: Puisque nous avons vu 0 auparavant, un pas en arrière, le troisième terme est 1
-Terme 4: Puisque nous n'avons pas vu 1 auparavant, le quatrième terme est 0
-Terme 5: Puisque nous avons vu 0 auparavant, deux pas en arrière, le cinquième terme est 2.
+- Terme 1: Le premier terme est 0.
+- Terme 2: Puisque nous n'avons pas vu 0 auparavant, le second terme est 0.
+- Terme 3: Puisque nous avons vu 0 auparavant, un pas en arrière, le troisième terme est 1
+- Terme 4: Puisque nous n'avons pas vu 1 auparavant, le quatrième terme est 0
+- Terme 5: Puisque nous avons vu 0 auparavant, deux pas en arrière, le cinquième terme est 2.
 
 Et ainsi de suite...
 
