@@ -87,3 +87,9 @@ Mâchoire carrée, coupe militaire, Jeff, responsable du projet Opportunity, est
 *"Dans ce cas, faisons appel à des ressources extérieures et voyons ce qu’il en sort..."*
 
 [Code source de la solution](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Facile/Mars%20Lander%20-%20Episode%201/marslanderEP1.swift)
+
+## Succès à débloquer si la solution est optimisée
+
+**Économe:** Réussir le 1er test de validation avec au moins 300l de fuel restant au défi "Mars Lander - Niveau 1".
+
+[Code source de la solution optimisée pour débloquer le succès](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Facile/Mars%20Lander%20-%20Episode%201/marsLanderEP1Achievement.swift)
