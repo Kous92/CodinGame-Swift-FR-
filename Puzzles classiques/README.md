@@ -14,5 +14,5 @@ Ces puzzles sont pour la plupart de type "gamifié" car cela vient directement d
 
 Ici, je vous propose des solutions sur des puzzles que j'ai résolu (avec un score de 100%) en Swift:
 - [Puzzles faciles](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile): **24 puzzles résolus**
-- [Puzzles moyens](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen): **12 puzzles résolus**
+- [Puzzles moyens](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen): **13 puzzles résolus**
 - [Puzzles difficiles](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Difficile): **3 puzzles résolus**

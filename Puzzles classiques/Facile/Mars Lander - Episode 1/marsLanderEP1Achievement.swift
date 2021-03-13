@@ -31,7 +31,7 @@ while true {
     let rotate = Int(inputs[5])! // the rotation angle in degrees (-90 to 90).
     var power = Int(inputs[6])! // the thrust power (0 to 4).
 
-    // Optimized to unlock the achivement by landing with at at 300 liters of fuel
+    // Optimized to unlock the achivement by landing with at least 300 liters of fuel
     if abs(vSpeed) > 40 {
         if power < 4 {
             power += 1

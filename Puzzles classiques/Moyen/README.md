@@ -11,6 +11,7 @@ Voici les solutions des puzzles moyens que j'ai résolu en Swift
 - [La bataille](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/La%20bataille)
 - [Le cadeau](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/Le%20cadeau)
 - [Nombre d'échanges minimum](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/Nombre%20d%27%C3%A9changes%20minimum)
+- [Numéros de téléphone](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/Num%C3%A9ros%20de%20t%C3%A9l%C3%A9phone)
 - [Pertes en bourse](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/Pertes%20en%20bourse)
 - [Shadows of the Knight - Episode 1](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/Shadows%20of%20the%20Knight%20-%20Episode%201)
 - [Suite de Conway](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/Suite%20de%20Conway)
