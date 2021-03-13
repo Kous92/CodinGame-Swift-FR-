@@ -2,9 +2,10 @@
 
 Voici les solutions des puzzles faciles que j'ai résolu en Swift.
 
-**25 puzzles résolus**
+**26 puzzles résolus**
 - [Add'em Up](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Add%27em%20Up)
 - [ASCII ART](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/ASCII%20ART)
+- [Bank Robbers](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Bank%20Robbers)
 - [Benford's law](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Benford%27s%20law)
 - [Brick in the Wall](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Brick%20in%20the%20Wall)
 - [Chevaux de course](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Chevaux%20de%20course)
