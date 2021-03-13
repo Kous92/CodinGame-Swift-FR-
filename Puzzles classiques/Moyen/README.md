@@ -2,7 +2,7 @@
 
 Voici les solutions des puzzles moyens que j'ai résolu en Swift
 
- **12 puzzles résolus**
+ **13 puzzles résolus**
 - [ANEO Sponsored Challenge](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/ANEO%20Sponsored%20Challenge) **(Puzzle spécial sponsorisé par les recruteurs d'ANEO, les autres solutions ne sont pas affichées)**
 - [Bit count to limit](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Moyen/Bit%20count%20to%20limit)
 - [Bulgarian solitaire](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Moyen/Bulgarian%20solitaire)
