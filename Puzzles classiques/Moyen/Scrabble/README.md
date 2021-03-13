@@ -3,7 +3,7 @@
 ## Que vais-je apprendre ?
 Ce puzzle vous demande d'utiliser des boucles imbriquées ainsi que de combiner plusieurs tableaux associatifs afin de construire une solution efficacement.
 
-**Ressources externes: [Tableau associatif](https://fr.wikipedia.org/wiki/Table_de_hachage), [Tableau associatif](https://fr.wikipedia.org/wiki/Tableau_associatif)**
+**Ressources externes: [Table de hachage](https://fr.wikipedia.org/wiki/Table_de_hachage), [Tableau associatif](https://fr.wikipedia.org/wiki/Tableau_associatif)**
 
 ## ÉNONCÉ
 
