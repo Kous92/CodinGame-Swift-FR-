@@ -65,4 +65,4 @@ Une **unique ligne** contenant le numéro de la montagne sur laquelle tirer
  
 *“Journal de bord du capitaine, annexe. Lors d'un ultime effort, Scotty a pu recalibrer les canons laser qui sont maintenant capables de détruire les montagnes à leur base. Cela nous donne espoir de pouvoir atterrir en sécurité sur la planète. Nous recherchons à présent un membre de l'équipage capable de programmer le circuit de commande de tir des canons pour nous sortir de ce qui apparait clairement comme un piége destiné à nous détruire.”*
 
-[Code source de la solution](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/La%20descente/laDescente.swift)
+[Code source de la solution](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Facile/La%20descente/laDescente.swift)

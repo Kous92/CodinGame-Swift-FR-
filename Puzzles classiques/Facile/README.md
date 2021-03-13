@@ -15,7 +15,7 @@ Voici les solutions des puzzles faciles que j'ai résolu en Swift.
 - [Expressions parenthésées](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Expressions%20parenth%C3%A9s%C3%A9es)
 - [Happy Numbers](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Facile/Happy%20Numbers)
 - [Horse-racing hyperduals](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Horse-racing%20Hyperduals)
-- [La descente](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/La&20descente)
+- [La descente](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/La%20descente)
 - [Lumen](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Lumen)
 - [Mars Lander - Episode 1](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Mars%20Lander%20-%20Episode%201)
 - [MIME Type](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/MIME%20Type)
