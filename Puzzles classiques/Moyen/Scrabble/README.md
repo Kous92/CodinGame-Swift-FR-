@@ -39,7 +39,7 @@ Au Scrabble©, chaque lettre est pondéré par un score qui dépend de la diffic
 | `j`, `x` | 8 |
 | `q`, `z` | 10 |
 
-Le mot `banjo` vous rapporte 3 + 1 + 1 + 8 + 1 = 14 points.
+Le mot `banjo` vous rapporte 3 + 1 + 1 + 8 + 1 = 14 points.
 
 Un dictionnaire des mots autorisé est fourni en entrée de votre programme. Le programme doit alors trouver le mot de ce dictionnaire qui rapporte le plus de points pour les sept lettres données (une lettre ne peut être utilisée qu'une seule fois). Si deux mots rapportent le même nombre de points, alors le mot qui apparaît le premier dans le dictionnaire fourni sera choisi.
  
