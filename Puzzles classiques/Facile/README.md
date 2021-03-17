@@ -2,7 +2,7 @@
 
 Voici les solutions des puzzles faciles que j'ai résolu en Swift.
 
-**28 puzzles résolus**
+**29 puzzles résolus**
 - [Add'em Up](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Add%27em%20Up)
 - [ASCII ART](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/ASCII%20ART)
 - [Bank Robbers](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Bank%20Robbers)
@@ -16,6 +16,7 @@ Voici les solutions des puzzles faciles que j'ai résolu en Swift.
 - [Expressions parenthésées](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Expressions%20parenth%C3%A9s%C3%A9es)
 - [Happy Numbers](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Facile/Happy%20Numbers)
 - [Horse-racing hyperduals](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Horse-racing%20Hyperduals)
+- [Jack Silver: The Casino](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Jack%20Silver%3A%20The%20Casino)
 - [La descente](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/La%20descente)
 - [Lumen](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Lumen)
 - [Mars Lander - Episode 1](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Mars%20Lander%20-%20Episode%201)
