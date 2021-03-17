@@ -2,7 +2,7 @@
 
 Voici les solutions des puzzles faciles que j'ai résolu en Swift.
 
-**26 puzzles résolus**
+**27 puzzles résolus**
 - [Add'em Up](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Add%27em%20Up)
 - [ASCII ART](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/ASCII%20ART)
 - [Bank Robbers](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Bank%20Robbers)
@@ -23,6 +23,7 @@ Voici les solutions des puzzles faciles que j'ai résolu en Swift.
 - [Number Derivation](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Facile/Number%20Derivation)
 - [Mountain Map](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Facile/Mountain%20Map)
 - [Onboarding](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Onboarding)
+- [Power of Thor - Episode 1](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Power%20of%20Thor%20-%20Episode%201)
 - [Smooth!](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Smooth!)
 - [Températures](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Temp%C3%A9ratures)
 - [The River I](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Facile/The%20River%20I)
