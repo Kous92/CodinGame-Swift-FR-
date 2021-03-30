@@ -54,9 +54,9 @@ Vous avez à donner le résultat de la somme de ces 2 nombres, aussi en chiffres
 - **D** a une valeur de 500 (maximum 1 à la suite)
 - **M** a une valeur de 1000 (maximum 4 à la suite)
 
-Le caractère **I** juste avant un **V** or **X** a une valeur de -1 (exemple IX vaut 9)
-Le caractère **X** juste avant un **L** or **C** a une valeur de -10 (exemple XL vaut 40)
-Le caractère **C** juste avant un **D** or **M** a une valeur de -100 (exemple CM vaut 900)
+- Le caractère **I** juste avant un **V** or **X** a une valeur de -1 (exemple IX vaut 9)
+- Le caractère **X** juste avant un **L** or **C** a une valeur de -10 (exemple XL vaut 40)
+- Le caractère **C** juste avant un **D** or **M** a une valeur de -100 (exemple CM vaut 900)
 
 ### Entrées
 - **Ligne 1:** `Rom1` (le 1er nombre en chiffres romains)
