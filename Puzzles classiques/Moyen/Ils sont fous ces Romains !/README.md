@@ -1,6 +1,6 @@
 # CodinGame: Ils sont fous ces Romains ! (These Romans are crazy !)
 
-## Puzzle de la communauté proposé par nicola.
+## Puzzle de la communauté proposé par VilBoub.
 
 **ORIGINAL TEXT (ENGLISH)**
 
