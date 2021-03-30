@@ -8,7 +8,7 @@ Voici les solutions des puzzles moyens que j'ai résolu en Swift
 - [Bulgarian solitaire](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Moyen/Bulgarian%20solitaire)
 - [Don't panic - Episode 1](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/Don't%20panic%20-%20Episode%201)
 - [Factorial vs Exponential](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/Factorial%20vs%20Exponential)
-- [Ils sont fous ces Romains !](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/La%20bataille)
+- [Ils sont fous ces Romains !](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/Ils%20sont%20fous%20ces%20Romains%20!)
 - [La bataille](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/La%20bataille)
 - [Le cadeau](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/Le%20cadeau)
 - [Le plus rapide](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/Le%20plus%20rapide)
