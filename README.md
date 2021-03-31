@@ -4,7 +4,7 @@
 
 ## Mon profil CodinGame
 Pour consulter, mon profil de développeur sur **CodinGame**, [c'est ici](https://www.codingame.com/profile/7db76a59bcdf34852132ed82e45bf4f62696733)
-- **Niveau actuel: 17** (rang bronze)
+- **Niveau actuel: 18** (rang bronze)
 - **Niveau langage Swift: 5 (NIVEAU MAX)**
 
 ## Introduction
