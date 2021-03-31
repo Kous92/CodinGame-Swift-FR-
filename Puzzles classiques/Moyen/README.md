@@ -2,10 +2,11 @@
 
 Voici les solutions des puzzles moyens que j'ai résolu en Swift
 
- **18 puzzles résolus**
+ **19 puzzles résolus**
 - [ANEO Sponsored Challenge](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/ANEO%20Sponsored%20Challenge) **(Puzzle spécial sponsorisé par les recruteurs d'ANEO, les autres solutions ne sont pas affichées)**
 - [Bit count to limit](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Moyen/Bit%20count%20to%20limit)
 - [Bulgarian solitaire](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Moyen/Bulgarian%20solitaire)
+- [Câblage réseau](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Moyen/C%C3%A2blage%20r%C3%A9seau)
 - [Don't panic - Episode 1](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/Don't%20panic%20-%20Episode%201)
 - [Factorial vs Exponential](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/Factorial%20vs%20Exponential)
 - [Ils sont fous ces Romains !](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/Ils%20sont%20fous%20ces%20Romains%20!)
