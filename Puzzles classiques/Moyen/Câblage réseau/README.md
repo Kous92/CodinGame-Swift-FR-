@@ -14,8 +14,6 @@ Le but de cet exercice est de trouver, s'ils existent, les voisins de droite et 
 
 Aujourd'hui vous êtes chargé de relier un ensemble de maisons au réseau général. Seulement voilà, votre collègue étourdi a oublié une partie du stock de bobines de câbles avant de partir ce matin. Vous regardez la camionnette à moitié vide en soupirant. Pfff, il va falloir se débrouiller pour utiliser la longueur de câble la plus courte possible.
 
-![There is no Spoon Episode 1](ThereIsNoSpoon.png)
-
 ## Objectifs
 
 Un opérateur Internet projette de raccorder un parc d'entreprises à la fibre optique. La zone à couvrir est large et il vous demande d'écrire un programme qui permettra de calculer la longueur minimale de câble de fibre optique nécessaire pour relier l'ensemble des bâtiments.
