@@ -73,6 +73,6 @@ Une ligne contenant le message décodé.
 
 Entrée | Sortie
 ------------ | -------------
-12 | 0 0 4<br>2 1 0
+35<br>abcdefghijklmnopqrstuvwxyz | ja
 
 [Code source de la solution](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Decode%20the%20message/decodeTheMessage.swift)
