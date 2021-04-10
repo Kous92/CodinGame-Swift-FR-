@@ -55,4 +55,4 @@ Entrée | Sortie
 ------------ | -------------
 12 | 0 0 4<br>2 1 0
 
-[Code source de la solution](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile/Rugby%20score/rubgyScore.swift)
+[Code source de la solution](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Facile/Rugby%20score/rugbyScore.swift)
