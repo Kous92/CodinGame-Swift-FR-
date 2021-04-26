@@ -104,3 +104,5 @@ Une **ligne unique** composée de deux entiers `C1` et `C2` séparés par un esp
 *John, nous avons encore besoin de vous. STOP*
 
 [Code source de la solution](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Moyen/Skynet%20Revolution%20-%20Episode%201/skynetRevolution1.swift)
+
+**Note: la solution proposée permet aussi de débloquer le succès Or Embuscade (Résoudre le défi à 100% et le 4ème test du problème "Skynet : le virus" avec plus de 50 liens restants.)**
