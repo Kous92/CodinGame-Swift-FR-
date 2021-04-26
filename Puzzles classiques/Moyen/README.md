@@ -2,7 +2,7 @@
 
 Voici les solutions des puzzles moyens que j'ai résolu en Swift
 
- **19 puzzles résolus**
+ **20 puzzles résolus**
 - [ANEO Sponsored Challenge](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/ANEO%20Sponsored%20Challenge) **(Puzzle spécial sponsorisé par les recruteurs d'ANEO, les autres solutions ne sont pas affichées)**
 - [Bit count to limit](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Moyen/Bit%20count%20to%20limit)
 - [Bulgarian solitaire](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Moyen/Bulgarian%20solitaire)
@@ -19,6 +19,7 @@ Voici les solutions des puzzles moyens que j'ai résolu en Swift
 - [Rubik](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/Rubik)
 - [Scrabble](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/Scrabble)
 - [Shadows of the Knight - Episode 1](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/Shadows%20of%20the%20Knight%20-%20Episode%201)
+- [Skynet Revolution - Episode 1](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/Skynet%20Revolution%20-%20Episode%201)
 - [Suite de Conway](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/Suite%20de%20Conway)
 - [Sum of divisors](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/Sum%20of%20divisors)
 - [There is no Spoon - Episode 1](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen/There%20is%20no%20Spoon%20-%20Episode%201)
