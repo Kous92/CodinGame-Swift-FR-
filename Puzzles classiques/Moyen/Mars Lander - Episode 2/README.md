@@ -94,6 +94,6 @@ Jeff se tourne vers vous et vous transperce de son regard bleu acier.
 
 *"Cela dit, il n'a pas tort. Ce premier test était juste une mise en jambe. Là tu vas être confronté à des situations plus difficiles. Tu comprends, on doit tout prévoir, le succès de la mission en dépend..."*
 
-[Code source de la solution](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Moyen/Mars%20Lander%20-%20Episode%202/marslanderEP2.swift)
+[Code source de la solution](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Moyen/Mars%20Lander%20-%20Episode%202/marsLanderEP2.swift)
 
 **Note: la solution proposée permet aussi de débloquer le succès Or Atteindre les sommets (Réussir le validateur 5 de "Mars Lander - Niveau 2" avec au moins 400l de fuel et un score à 100%.)**
