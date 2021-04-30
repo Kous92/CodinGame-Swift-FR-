@@ -16,3 +16,4 @@ Ici, je vous propose des solutions sur des puzzles que j'ai résolu (avec un sco
 - [Puzzles faciles](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Facile): **34 puzzles résolus**
 - [Puzzles moyens](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Moyen): **21 puzzles résolus**
 - [Puzzles difficiles](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Difficile): **6 puzzles résolus**
+- [Puzzles très difficiles](https://github.com/Kous92/CodinGame-Swift-FR-/tree/main/Puzzles%20classiques/Tr%C3%A8s%20difficile): **1 puzzle résolus**

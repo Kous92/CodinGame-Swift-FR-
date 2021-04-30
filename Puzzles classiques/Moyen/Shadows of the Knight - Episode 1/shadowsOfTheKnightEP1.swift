@@ -22,7 +22,7 @@ var yMin = -1 // Minimum height
 var yMax = H// Maximum height
 
 /*
-- Before applying dichtomical search: change yMin and yMax as height, xMin and xMax as width
+- Before applying binary search: change yMin and yMax as height, xMin and xMax as width
 -> UP: -1 to yMax
 -> DOWN: +1 to yMin
 -> LEFT: -1 to xMax
@@ -74,6 +74,7 @@ while true {
         yMin = y + 1
     }
 
+    // Binary search
     x = (xMin + xMax) / 2
     y = (yMin + yMax) / 2
 
