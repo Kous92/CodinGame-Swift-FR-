@@ -2,7 +2,7 @@
 
 ## Que vais-je apprendre ?
 
-Vous devez gérer des index et des tableaux à deux dimensions avec ce puzzle. Vous découvrez aussi l'algorithme de recherche dichotomique et surtout, vous réalisez aussi que Batman est vraiment bon dans le nettoyage de fenêtres.
+Dans ce puzzle, vous devez effectuer des calculs sur une grille qui est trop large pour être entièrement stockée. Vous apprenez à implémenter un algorithme efficace de recherche dichotomique.
 
 **Ressources externes: [Recherche dichotomique](https://fr.wikipedia.org/wiki/Recherche_dichotomique), [Trilatération](https://fr.wikipedia.org/wiki/Trilat%C3%A9ration)**
 
@@ -28,7 +28,7 @@ Après chaque saut, le nouveau détecteur fournit un des codes suivants :
 - **`COLDER`**: Batman est plus loin des bombes qu'il ne l'était avant son saut.
 - **`WARMER`**: Batman est plus proche des bombes qu'il ne l'était avant son saut.
 - **`SAME`**: Batman est à la même distance des bombes qu'il ne l'était avant son saut.
-- **`UNKNOWN`**: Envoyé uniquement avant le premier saut : le détecteur ne peut rien indiquer.
+- **`UNKNOWN`**: Envoyé uniquement avant le premier saut : le détecteur ne peut rien indiquer.<br>
 La distance utilisée pour la notion de plus proche / plus loin est la distance euclidienne:
 ![Distance Formula](distanceFormula.png)<br>
 
