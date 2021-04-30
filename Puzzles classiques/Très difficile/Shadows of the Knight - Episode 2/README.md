@@ -62,6 +62,12 @@ Une **ligne unique** avec 2 entiers `X` `Y` séparés par un espace. (`X`,`Y`) r
 - 0 ≤ `Y`, `Y0` < H
 - Temps de réponse pour un tour ≤ 150ms
 
+### Exemples
+- Initialisation et tour 1:<br>
+![Shadows of the Knight: Init](initEntryShadowsEP2.png)
+- Tours de jeu:<br>
+![Shadows of the Knight: Turns](turnsEntriesShadowsEP2.png)
+
 ### Synopsis
 **Joker**: “NON NON NON ! Tu as gâché la fête Batman ! C'est injuste, tu as encore utilisé tes satanés gadgets. Tu n'es qu'un tricheur !”<br>
 **Batman**: “Et toi un mauvais perdant, Joker. Rends-toi ! Maintenant !”<br>
