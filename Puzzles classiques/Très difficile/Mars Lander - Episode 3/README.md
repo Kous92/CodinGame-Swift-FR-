@@ -1,26 +1,28 @@
-# CodinGame: Mars Lander - Episode 2
+# CodinGame: Mars Lander - Episode 3
 
 ## Que vais-je apprendre ?
 
-Dans ce puzzle, itérer sur une série de coordonnées 2D vous aide à appréhender les concepts de comparaisons, calculs de distance, extrapolation. Ce puzzle se base sur des contraintes d'angle et d'orientation. Vous apprenez à calculer la vitesse d'un objet d'après ses coordonnées à deux instants donnés. Avec un peu d'adresse, vous pourrez résoudre ce problème en utilisant des optimisations de trajectoires.
+Dans ce puzzle, vous devez calculer un chemin en utilisant des concept avancés de mathématiques, comme les courbes de Bézier.
+
+Vous pouvez aborder ce problème difficile avec différentes stratégies telles que des algorithmes génétiques ou des réseaux de neurones.
 
 ## ÉNONCÉ
 
-Ce puzzle est la suite de Mars Lander - Épisode 2 avec des niveaux difficiles qui vous forceront à utiliser des mathématiques avancés si vous ne voulez pas coder une solution en dur.
+Ce puzzle se déroule dans un grand environnement 2D. Vous devez manipuler et extrapoler la position et la vitesse d'un vaisseau spatial afin de le faire atterrir sur un sol plat à la bonne vitesse.
 
 ![Mars Lander Episode 3](MarsLander3.png)
 
 ## Histoire
 
-Vos radars ont détecté des signaux fortement intéressants qui pourraient potentiellement amener le robot martien à découvrir des formes de vie actives sur mars ! Le seul problème est que ces signaux semblent provenir d'une série de cavernes, et vous devrez améliorer votre système pour que le vaisseau puisse se poser à l'intérieur de la caverne et décharger le robot d'exploration. Si vous réussissez, c'est à coup sûr la légion d'honneur. Bonne chance, commandant.
+Votre vaisseau d'exploration de Mars vous emmène au-dessus d'une zone rocheuse particulièrement difficile. Il vous faudra revoir et améliorer votre technique d'approche pour vous poser en douceur et sûrement sur le sol martien !
 
-*Ce défi difficile est le troisième et dernier d'une série de trois exercices proposés lors du challenge « Mars Lander ». Si vous avez des difficultés avec ce défi, n'hésitez pas à commencer par les deux niveaux précédents, [« Mars Lander - Niveau 1 »](https://www.codingame.com/training/easy/mars-lander-episode-1) et [« Mars Lander - Niveau 2 »](https://www.codingame.com/training/medium/mars-lander-episode-2) sur le même thème mais avec une difficulté moindre.*
+Ce défi moyen est le deuxième d'une série de trois exercices proposés lors du challenge « Mars Lander ». Une fois résolu allez vous confronter au troisième défi [« Mars Lander - Episode 3 »](https://www.codingame.com/training/expert/mars-lander-episode-3) sur le même thème mais avec une difficulté accrue !*
 
 ## Objectif
 
 L'objectif de votre programme est de faire atterrir, sans crash, la capsule "Mars Lander" qui contient le rover Opportunity. La capsule “Mars Lander” permettant de débarquer le rover est pilotée par un programme qui échoue trop souvent dans le simulateur de la NASA.
 
-**Ce puzzle est le second niveau de la trilogie "Mars Lander". Les contrôles sont les mêmes que dans le niveau précédent mais vous devez maintenant contrôler l'angle pour réussir.**
+**Ce puzzle est le dernier niveau de la trilogie "Mars Lander". Les contrôles sont les mêmes que dans les niveaux précédents mais le sol est plus complexe...**
 
 ## Règles
 
@@ -31,7 +33,7 @@ Sous forme de jeu, le simulateur place Mars Lander dans une zone du ciel de Mars
 ![Mars Lander zone rules](MarsLanderRules1.png)
 
 
-Toutes les secondes, en fonction des paramètres d’entrée (position, vitesse, fuel, etc.), le programme doit fournir le nouvel angle de rotation souhaité ainsi que la nouvelle puissance des fusées de Mars Lander:
+**Toutes les secondes**, en fonction des paramètres d’entrée (position, vitesse, fuel, etc.), le programme doit fournir le nouvel angle de rotation souhaité ainsi que la nouvelle puissance des fusées de Mars Lander:
 - Angle de **-90°** à **90°**. Puissance des fusées de **0** à **4**.
 - **Pour ce niveau**, vous n'avez besoin de contrôler que la puissance des fusées : l'angle doit rester à 0.
 ![Mars Lander angle power rules](MarsLanderRules2.png)
@@ -80,20 +82,20 @@ Temps de réponse pour un tour ≤ 100ms
 
 ## Exemple
 
-![Mars Lander Episode 2 Examples](MarsLander2Examples.png)
+![Mars Lander Episode 3 Examples](MarsLander3Examples.png)
 
 ## Synposis
 
-**Même endroit, le lendemain. Vous avez rejoint Jeff et Mike dans la salle de réunion de crise du Kennedy Space Center.**
+**Même endroit, le surlendemain. La salle de réunion empeste la sueur, les tables sont jonchées de restes de pizza...**<br><br>
+
+*"Je commence à y croire. Mike qu'est-ce que tu en dis ?"*<br>
+*"Ouais, c'est pas mal..."*<br>
+*“Pas mal, pas mal, un peu d'enthousiasme que diable ! On va finir par le faire atterrir ce rover !”*<br>
  
-*"Bon je crois que tu as compris le principe. Mike, que penses-tu de notre nouvelle recrue ?"*
-*"Il reste du chemin à faire..."*
-*"Mike, toujours aussi positif !"*
- 
-Jeff se tourne vers vous et vous transperce de son regard bleu acier.
+Jeff surexcité, machonnant fébrilement une allumette, vous adresse ces derniers encouragements.<br>
 
-*"Cela dit, il n'a pas tort. Ce premier test était juste une mise en jambe. Là tu vas être confronté à des situations plus difficiles. Tu comprends, on doit tout prévoir, le succès de la mission en dépend..."*
+*“Là on s'attaque au dernier pourcent. Les plus acharnés de nos développeurs y ont laissé des plumes. Je sais que tu peux y arriver... Ne me déçois pas...”*
 
-[Code source de la solution](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Moyen/Mars%20Lander%20-%20Episode%202/marsLanderEP2.swift)
+[Code source de la solution](https://github.com/Kous92/CodinGame-Swift-FR-/blob/main/Puzzles%20classiques/Tr%C3%A8s%20difficile/Mars%20Lander%20-%20Episode%203/marsLanderEP3.swift)
 
-**Note: la solution proposée permet aussi de débloquer le succès Or Atteindre les sommets (Réussir le validateur 5 de "Mars Lander - Niveau 2" avec au moins 400l de fuel et un score à 100%.)**
+**Note: la solution proposée permet aussi de débloquer le succès Légende Troglodyte (Réussir le validateur 2 de "Mars Lander - Niveau 3" avec au moins 400l de fuel et un score à 100%.)**
